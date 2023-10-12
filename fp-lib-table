@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Mechboard16)(type KiCad)(uri ${KIPRJMOD}/Mechboard16.pretty)(options "")(descr ""))
+)

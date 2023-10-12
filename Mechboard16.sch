@@ -1,0 +1,2477 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Mechboard16"
+Date "2023-10-12"
+Rev "1git"
+Comp "SukkoPera"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push_45deg SW0:0
+U 1 1 6575B9ED
+P 2725 1880
+F 0 "SW0:0" H 2800 2035 50  0000 C CNN
+F 1 "KEY_DEL" V 2545 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 1880 50  0001 C CNN
+F 3 "~" H 2725 1880 50  0001 C CNN
+	1    2725 1880
+	1    0    0    -1  
+$EndComp
+Text Label 1770 1680 0    50   ~ 0
+row0
+Wire Wire Line
+	2625 1780 2625 1680
+$Comp
+L Device:D D0:0
+U 1 1 6575E82A
+P 2675 2080
+F 0 "D0:0" H 2675 2175 50  0000 C CNN
+F 1 "1n4148" H 2675 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 2080 50  0001 C CNN
+F 3 "~" H 2675 2080 50  0001 C CNN
+	1    2675 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 2080 2825 1980
+Wire Wire Line
+	2525 2080 2425 2080
+Wire Wire Line
+	2425 2080 2425 1185
+Text Label 2425 1185 3    50   ~ 0
+col0
+Text Label 1770 2180 0    50   ~ 0
+row1
+Wire Wire Line
+	2425 2080 2425 2580
+Connection ~ 2425 2080
+$Comp
+L Switch:SW_Push_45deg SW1:0
+U 1 1 657674C2
+P 2725 2380
+F 0 "SW1:0" H 2805 2535 50  0000 C CNN
+F 1 "KEY_3" V 2545 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 2380 50  0001 C CNN
+F 3 "~" H 2725 2380 50  0001 C CNN
+	1    2725 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 2280 2625 2180
+$Comp
+L Device:D D1:0
+U 1 1 6576753F
+P 2675 2580
+F 0 "D1:0" H 2675 2675 50  0000 C CNN
+F 1 "1n4148" H 2675 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 2580 50  0001 C CNN
+F 3 "~" H 2675 2580 50  0001 C CNN
+	1    2675 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 2580 2825 2480
+Wire Wire Line
+	2525 2580 2425 2580
+Connection ~ 2425 2580
+Wire Wire Line
+	2425 2580 2425 3080
+Connection ~ 2625 2180
+Text Label 2925 1185 3    50   ~ 0
+col1
+Text Label 1770 2680 0    50   ~ 0
+row2
+Text Label 1770 3180 0    50   ~ 0
+row3
+Text Label 1770 3680 0    50   ~ 0
+row4
+Text Label 1770 4180 0    50   ~ 0
+row5
+Text Label 1770 4680 0    50   ~ 0
+row6
+Text Label 1770 5180 0    50   ~ 0
+row7
+$Comp
+L Switch:SW_Push_45deg SW2:0
+U 1 1 65773AEE
+P 2725 2880
+F 0 "SW2:0" H 2805 3035 50  0000 C CNN
+F 1 "KEY_5" V 2545 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 2880 50  0001 C CNN
+F 3 "~" H 2725 2880 50  0001 C CNN
+	1    2725 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 2780 2625 2680
+$Comp
+L Device:D D2:0
+U 1 1 65773AF5
+P 2675 3080
+F 0 "D2:0" H 2675 3175 50  0000 C CNN
+F 1 "1n4148" H 2675 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 3080 50  0001 C CNN
+F 3 "~" H 2675 3080 50  0001 C CNN
+	1    2675 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3080 2825 2980
+Wire Wire Line
+	2525 3080 2425 3080
+$Comp
+L Switch:SW_Push_45deg SW3:0
+U 1 1 6577596F
+P 2725 3380
+F 0 "SW3:0" H 2805 3535 50  0000 C CNN
+F 1 "KEY_7" V 2545 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 3380 50  0001 C CNN
+F 3 "~" H 2725 3380 50  0001 C CNN
+	1    2725 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 3280 2625 3180
+$Comp
+L Device:D D3:0
+U 1 1 65775976
+P 2675 3580
+F 0 "D3:0" H 2675 3675 50  0000 C CNN
+F 1 "1n4148" H 2675 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 3580 50  0001 C CNN
+F 3 "~" H 2675 3580 50  0001 C CNN
+	1    2675 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3580 2825 3480
+Wire Wire Line
+	2525 3580 2425 3580
+$Comp
+L Switch:SW_Push_45deg SW4:0
+U 1 1 6577708B
+P 2725 3880
+F 0 "SW4:0" H 2805 4035 50  0000 C CNN
+F 1 "KEY_9" V 2545 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 3880 50  0001 C CNN
+F 3 "~" H 2725 3880 50  0001 C CNN
+	1    2725 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 3780 2625 3680
+$Comp
+L Device:D D4:0
+U 1 1 65777092
+P 2675 4080
+F 0 "D4:0" H 2675 4175 50  0000 C CNN
+F 1 "1n4148" H 2675 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 4080 50  0001 C CNN
+F 3 "~" H 2675 4080 50  0001 C CNN
+	1    2675 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 4080 2825 3980
+Wire Wire Line
+	2525 4080 2425 4080
+Wire Wire Line
+	2625 4280 2625 4180
+$Comp
+L Device:D D5:0
+U 1 1 6577887E
+P 2675 4580
+F 0 "D5:0" H 2675 4675 50  0000 C CNN
+F 1 "1n4148" H 2675 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 4580 50  0001 C CNN
+F 3 "~" H 2675 4580 50  0001 C CNN
+	1    2675 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 4580 2825 4480
+Wire Wire Line
+	2525 4580 2425 4580
+$Comp
+L Switch:SW_Push_45deg SW6:0
+U 1 1 6577A210
+P 2725 4880
+F 0 "SW6:0" H 2805 5035 50  0000 C CNN
+F 1 "KEY_LF" V 2545 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 4880 50  0001 C CNN
+F 3 "~" H 2725 4880 50  0001 C CNN
+	1    2725 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 4780 2625 4680
+$Comp
+L Device:D D6:0
+U 1 1 6577A217
+P 2675 5080
+F 0 "D6:0" H 2675 5175 50  0000 C CNN
+F 1 "1n4148" H 2675 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 5080 50  0001 C CNN
+F 3 "~" H 2675 5080 50  0001 C CNN
+	1    2675 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 5080 2825 4980
+Wire Wire Line
+	2525 5080 2425 5080
+$Comp
+L Switch:SW_Push_45deg SW7:0
+U 1 1 6577BAFD
+P 2725 5380
+F 0 "SW7:0" H 2805 5535 50  0000 C CNN
+F 1 "KEY_1" V 2545 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 5380 50  0001 C CNN
+F 3 "~" H 2725 5380 50  0001 C CNN
+	1    2725 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 5280 2625 5180
+$Comp
+L Device:D D7:0
+U 1 1 6577BB04
+P 2675 5580
+F 0 "D7:0" H 2675 5675 50  0000 C CNN
+F 1 "1n4148" H 2675 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2675 5580 50  0001 C CNN
+F 3 "~" H 2675 5580 50  0001 C CNN
+	1    2675 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 5580 2825 5480
+Wire Wire Line
+	2525 5580 2425 5580
+$Comp
+L Switch:SW_Push_45deg SW5:0
+U 1 1 65778877
+P 2725 4380
+F 0 "SW5:0" H 2805 4535 50  0000 C CNN
+F 1 "KEY_DN" V 2545 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2725 4380 50  0001 C CNN
+F 3 "~" H 2725 4380 50  0001 C CNN
+	1    2725 4380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 1185 2925 2080
+Connection ~ 2625 5180
+Connection ~ 2425 5080
+Wire Wire Line
+	2425 5080 2425 5580
+Connection ~ 2625 4680
+Connection ~ 2425 4580
+Wire Wire Line
+	2425 4580 2425 5080
+Connection ~ 2425 4080
+Wire Wire Line
+	2425 4080 2425 4580
+Connection ~ 2625 3680
+Connection ~ 2425 3580
+Wire Wire Line
+	2425 3580 2425 4080
+Connection ~ 2625 3180
+Connection ~ 2425 3080
+Wire Wire Line
+	2425 3080 2425 3580
+Connection ~ 2625 2680
+$Comp
+L Switch:SW_Push_45deg SW0:1
+U 1 1 657B5925
+P 3225 1880
+F 0 "SW0:1" H 3300 2035 50  0000 C CNN
+F 1 "KEY_RET" V 3045 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_2.00u" H 3225 1880 50  0001 C CNN
+F 3 "~" H 3225 1880 50  0001 C CNN
+	1    3225 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 1780 3125 1680
+$Comp
+L Device:D D0:1
+U 1 1 657B592D
+P 3175 2080
+F 0 "D0:1" H 3175 2175 50  0000 C CNN
+F 1 "1n4148" H 3175 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 2080 50  0001 C CNN
+F 3 "~" H 3175 2080 50  0001 C CNN
+	1    3175 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 2080 3325 1980
+Wire Wire Line
+	3025 2080 2925 2080
+Connection ~ 2925 2080
+$Comp
+L Switch:SW_Push_45deg SW1:1
+U 1 1 657B5937
+P 3225 2380
+F 0 "SW1:1" H 3305 2535 50  0000 C CNN
+F 1 "KEY_W" V 3045 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 2380 50  0001 C CNN
+F 3 "~" H 3225 2380 50  0001 C CNN
+	1    3225 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 2280 3125 2180
+$Comp
+L Device:D D1:1
+U 1 1 657B593E
+P 3175 2580
+F 0 "D1:1" H 3175 2675 50  0000 C CNN
+F 1 "1n4148" H 3175 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 2580 50  0001 C CNN
+F 3 "~" H 3175 2580 50  0001 C CNN
+	1    3175 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 2580 3325 2480
+Wire Wire Line
+	3025 2580 2925 2580
+Connection ~ 2925 2580
+Connection ~ 3125 2180
+$Comp
+L Switch:SW_Push_45deg SW2:1
+U 1 1 657B594E
+P 3225 2880
+F 0 "SW2:1" H 3305 3035 50  0000 C CNN
+F 1 "KEY_R" V 3045 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 2880 50  0001 C CNN
+F 3 "~" H 3225 2880 50  0001 C CNN
+	1    3225 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 2780 3125 2680
+$Comp
+L Device:D D2:1
+U 1 1 657B5955
+P 3175 3080
+F 0 "D2:1" H 3175 3175 50  0000 C CNN
+F 1 "1n4148" H 3175 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 3080 50  0001 C CNN
+F 3 "~" H 3175 3080 50  0001 C CNN
+	1    3175 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 3080 3325 2980
+Wire Wire Line
+	3025 3080 2925 3080
+$Comp
+L Switch:SW_Push_45deg SW3:1
+U 1 1 657B595D
+P 3225 3380
+F 0 "SW3:1" H 3305 3535 50  0000 C CNN
+F 1 "KEY_Y" V 3045 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 3380 50  0001 C CNN
+F 3 "~" H 3225 3380 50  0001 C CNN
+	1    3225 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 3280 3125 3180
+$Comp
+L Device:D D3:1
+U 1 1 657B5964
+P 3175 3580
+F 0 "D3:1" H 3175 3675 50  0000 C CNN
+F 1 "1n4148" H 3175 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 3580 50  0001 C CNN
+F 3 "~" H 3175 3580 50  0001 C CNN
+	1    3175 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 3580 3325 3480
+Wire Wire Line
+	3025 3580 2925 3580
+$Comp
+L Switch:SW_Push_45deg SW4:1
+U 1 1 657B596C
+P 3225 3880
+F 0 "SW4:1" H 3305 4035 50  0000 C CNN
+F 1 "KEY_I" V 3045 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 3880 50  0001 C CNN
+F 3 "~" H 3225 3880 50  0001 C CNN
+	1    3225 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 3780 3125 3680
+$Comp
+L Device:D D4:1
+U 1 1 657B5973
+P 3175 4080
+F 0 "D4:1" H 3175 4175 50  0000 C CNN
+F 1 "1n4148" H 3175 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 4080 50  0001 C CNN
+F 3 "~" H 3175 4080 50  0001 C CNN
+	1    3175 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 4080 3325 3980
+Wire Wire Line
+	3025 4080 2925 4080
+Wire Wire Line
+	3125 4280 3125 4180
+$Comp
+L Device:D D5:1
+U 1 1 657B597C
+P 3175 4580
+F 0 "D5:1" H 3175 4675 50  0000 C CNN
+F 1 "1n4148" H 3175 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 4580 50  0001 C CNN
+F 3 "~" H 3175 4580 50  0001 C CNN
+	1    3175 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 4580 3325 4480
+Wire Wire Line
+	3025 4580 2925 4580
+$Comp
+L Switch:SW_Push_45deg SW6:1
+U 1 1 657B5984
+P 3225 4880
+F 0 "SW6:1" H 3305 5035 50  0000 C CNN
+F 1 "KEY_AST" V 3045 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 4880 50  0001 C CNN
+F 3 "~" H 3225 4880 50  0001 C CNN
+	1    3225 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 4780 3125 4680
+$Comp
+L Device:D D6:1
+U 1 1 657B598B
+P 3175 5080
+F 0 "D6:1" H 3175 5175 50  0000 C CNN
+F 1 "1n4148" H 3175 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 5080 50  0001 C CNN
+F 3 "~" H 3175 5080 50  0001 C CNN
+	1    3175 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5080 3325 4980
+Wire Wire Line
+	3025 5080 2925 5080
+$Comp
+L Switch:SW_Push_45deg SW7:1
+U 1 1 657B5993
+P 3225 5380
+F 0 "SW7:1" H 3305 5535 50  0000 C CNN
+F 1 "KEY_CLR" V 3045 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 3225 5380 50  0001 C CNN
+F 3 "~" H 3225 5380 50  0001 C CNN
+	1    3225 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 5280 3125 5180
+$Comp
+L Device:D D7:1
+U 1 1 657B599A
+P 3175 5580
+F 0 "D7:1" H 3175 5675 50  0000 C CNN
+F 1 "1n4148" H 3175 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3175 5580 50  0001 C CNN
+F 3 "~" H 3175 5580 50  0001 C CNN
+	1    3175 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5580 3325 5480
+Wire Wire Line
+	3025 5580 2925 5580
+$Comp
+L Switch:SW_Push_45deg SW5:1
+U 1 1 657B59A2
+P 3225 4380
+F 0 "SW5:1" H 3305 4535 50  0000 C CNN
+F 1 "KEY_P" V 3045 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3225 4380 50  0001 C CNN
+F 3 "~" H 3225 4380 50  0001 C CNN
+	1    3225 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 3125 5180
+Connection ~ 2925 5080
+Connection ~ 3125 4680
+Connection ~ 2925 4580
+Connection ~ 2925 4080
+Connection ~ 3125 3680
+Connection ~ 2925 3580
+Connection ~ 3125 3180
+Connection ~ 2925 3080
+Connection ~ 3125 2680
+Wire Wire Line
+	2925 2080 2925 2580
+Wire Wire Line
+	2925 2580 2925 3080
+Wire Wire Line
+	2925 5080 2925 5580
+Wire Wire Line
+	2925 4580 2925 5080
+Wire Wire Line
+	2925 4080 2925 4580
+Wire Wire Line
+	2925 3580 2925 4080
+Wire Wire Line
+	2925 3080 2925 3580
+Wire Wire Line
+	3425 1185 3425 2080
+Wire Wire Line
+	3925 1185 3925 2080
+Wire Wire Line
+	4425 1185 4425 2080
+Wire Wire Line
+	4925 1185 4925 2080
+Wire Wire Line
+	5425 1185 5425 2080
+Wire Wire Line
+	5925 1185 5925 2080
+Text Label 3425 1185 3    50   ~ 0
+col2
+Text Label 3925 1185 3    50   ~ 0
+col3
+Text Label 4425 1185 3    50   ~ 0
+col4
+Text Label 4925 1185 3    50   ~ 0
+col5
+Text Label 5425 1185 3    50   ~ 0
+col6
+Text Label 5925 1185 3    50   ~ 0
+col7
+$Comp
+L Switch:SW_Push_45deg SW0:2
+U 1 1 657F6879
+P 3725 1880
+F 0 "SW0:2" H 3800 2035 50  0000 C CNN
+F 1 "KEY_PND" V 3545 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 1880 50  0001 C CNN
+F 3 "~" H 3725 1880 50  0001 C CNN
+	1    3725 1880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D0:2
+U 1 1 657F6881
+P 3675 2080
+F 0 "D0:2" H 3675 2175 50  0000 C CNN
+F 1 "1n4148" H 3675 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 2080 50  0001 C CNN
+F 3 "~" H 3675 2080 50  0001 C CNN
+	1    3675 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 2080 3825 1980
+Wire Wire Line
+	3525 2080 3425 2080
+Connection ~ 3425 2080
+$Comp
+L Switch:SW_Push_45deg SW1:2
+U 1 1 657F688B
+P 3725 2380
+F 0 "SW1:2" H 3805 2535 50  0000 C CNN
+F 1 "KEY_A" V 3545 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 2380 50  0001 C CNN
+F 3 "~" H 3725 2380 50  0001 C CNN
+	1    3725 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 2280 3625 2180
+$Comp
+L Device:D D1:2
+U 1 1 657F6892
+P 3675 2580
+F 0 "D1:2" H 3675 2675 50  0000 C CNN
+F 1 "1n4148" H 3675 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 2580 50  0001 C CNN
+F 3 "~" H 3675 2580 50  0001 C CNN
+	1    3675 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 2580 3825 2480
+Wire Wire Line
+	3525 2580 3425 2580
+Connection ~ 3425 2580
+Connection ~ 3625 2180
+$Comp
+L Switch:SW_Push_45deg SW2:2
+U 1 1 657F68A2
+P 3725 2880
+F 0 "SW2:2" H 3805 3035 50  0000 C CNN
+F 1 "KEY_D" V 3545 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 2880 50  0001 C CNN
+F 3 "~" H 3725 2880 50  0001 C CNN
+	1    3725 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 2780 3625 2680
+$Comp
+L Device:D D2:2
+U 1 1 657F68A9
+P 3675 3080
+F 0 "D2:2" H 3675 3175 50  0000 C CNN
+F 1 "1n4148" H 3675 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 3080 50  0001 C CNN
+F 3 "~" H 3675 3080 50  0001 C CNN
+	1    3675 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 3080 3825 2980
+Wire Wire Line
+	3525 3080 3425 3080
+$Comp
+L Switch:SW_Push_45deg SW3:2
+U 1 1 657F68B1
+P 3725 3380
+F 0 "SW3:2" H 3805 3535 50  0000 C CNN
+F 1 "KEY_G" V 3545 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 3380 50  0001 C CNN
+F 3 "~" H 3725 3380 50  0001 C CNN
+	1    3725 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 3280 3625 3180
+$Comp
+L Device:D D3:2
+U 1 1 657F68B8
+P 3675 3580
+F 0 "D3:2" H 3675 3675 50  0000 C CNN
+F 1 "1n4148" H 3675 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 3580 50  0001 C CNN
+F 3 "~" H 3675 3580 50  0001 C CNN
+	1    3675 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 3580 3825 3480
+Wire Wire Line
+	3525 3580 3425 3580
+$Comp
+L Switch:SW_Push_45deg SW4:2
+U 1 1 657F68C0
+P 3725 3880
+F 0 "SW4:2" H 3805 4035 50  0000 C CNN
+F 1 "KEY_J" V 3545 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 3880 50  0001 C CNN
+F 3 "~" H 3725 3880 50  0001 C CNN
+	1    3725 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 3780 3625 3680
+$Comp
+L Device:D D4:2
+U 1 1 657F68C7
+P 3675 4080
+F 0 "D4:2" H 3675 4175 50  0000 C CNN
+F 1 "1n4148" H 3675 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 4080 50  0001 C CNN
+F 3 "~" H 3675 4080 50  0001 C CNN
+	1    3675 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 4080 3825 3980
+Wire Wire Line
+	3525 4080 3425 4080
+Wire Wire Line
+	3625 4280 3625 4180
+$Comp
+L Device:D D5:2
+U 1 1 657F68D0
+P 3675 4580
+F 0 "D5:2" H 3675 4675 50  0000 C CNN
+F 1 "1n4148" H 3675 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 4580 50  0001 C CNN
+F 3 "~" H 3675 4580 50  0001 C CNN
+	1    3675 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 4580 3825 4480
+Wire Wire Line
+	3525 4580 3425 4580
+$Comp
+L Switch:SW_Push_45deg SW6:2
+U 1 1 657F68D8
+P 3725 4880
+F 0 "SW6:2" H 3805 5035 50  0000 C CNN
+F 1 "KEY_SEM" V 3545 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 4880 50  0001 C CNN
+F 3 "~" H 3725 4880 50  0001 C CNN
+	1    3725 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 4780 3625 4680
+$Comp
+L Device:D D6:2
+U 1 1 657F68DF
+P 3675 5080
+F 0 "D6:2" H 3675 5175 50  0000 C CNN
+F 1 "1n4148" H 3675 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 5080 50  0001 C CNN
+F 3 "~" H 3675 5080 50  0001 C CNN
+	1    3675 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 5080 3825 4980
+Wire Wire Line
+	3525 5080 3425 5080
+$Comp
+L Switch:SW_Push_45deg SW7:2
+U 1 1 657F68E7
+P 3725 5380
+F 0 "SW7:2" H 3805 5535 50  0000 C CNN
+F 1 "KEY_CTL" V 3545 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 3725 5380 50  0001 C CNN
+F 3 "~" H 3725 5380 50  0001 C CNN
+	1    3725 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 5280 3625 5180
+$Comp
+L Device:D D7:2
+U 1 1 657F68EE
+P 3675 5580
+F 0 "D7:2" H 3675 5675 50  0000 C CNN
+F 1 "1n4148" H 3675 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3675 5580 50  0001 C CNN
+F 3 "~" H 3675 5580 50  0001 C CNN
+	1    3675 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 5580 3825 5480
+Wire Wire Line
+	3525 5580 3425 5580
+$Comp
+L Switch:SW_Push_45deg SW5:2
+U 1 1 657F68F6
+P 3725 4380
+F 0 "SW5:2" H 3805 4535 50  0000 C CNN
+F 1 "KEY_L" V 3545 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 3725 4380 50  0001 C CNN
+F 3 "~" H 3725 4380 50  0001 C CNN
+	1    3725 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 3625 5180
+Connection ~ 3425 5080
+Connection ~ 3625 4680
+Connection ~ 3425 4580
+Connection ~ 3425 4080
+Connection ~ 3625 3680
+Connection ~ 3425 3580
+Connection ~ 3625 3180
+Connection ~ 3425 3080
+Connection ~ 3625 2680
+Wire Wire Line
+	3425 2080 3425 2580
+Wire Wire Line
+	3425 2580 3425 3080
+Wire Wire Line
+	3425 5080 3425 5580
+Wire Wire Line
+	3425 4580 3425 5080
+Wire Wire Line
+	3425 4080 3425 4580
+Wire Wire Line
+	3425 3580 3425 4080
+Wire Wire Line
+	3425 3080 3425 3580
+$Comp
+L Switch:SW_Push_45deg SW0:3
+U 1 1 6580578A
+P 4225 1880
+F 0 "SW0:3" H 4300 2035 50  0000 C CNN
+F 1 "KEY_HLP" V 4045 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 4225 1880 50  0001 C CNN
+F 3 "~" H 4225 1880 50  0001 C CNN
+	1    4225 1880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D0:3
+U 1 1 65805792
+P 4175 2080
+F 0 "D0:3" H 4175 2175 50  0000 C CNN
+F 1 "1n4148" H 4175 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 2080 50  0001 C CNN
+F 3 "~" H 4175 2080 50  0001 C CNN
+	1    4175 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 2080 4325 1980
+Wire Wire Line
+	4025 2080 3925 2080
+Connection ~ 3925 2080
+$Comp
+L Switch:SW_Push_45deg SW1:3
+U 1 1 6580579C
+P 4225 2380
+F 0 "SW1:3" H 4305 2535 50  0000 C CNN
+F 1 "KEY_4" V 4045 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 2380 50  0001 C CNN
+F 3 "~" H 4225 2380 50  0001 C CNN
+	1    4225 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 2280 4125 2180
+$Comp
+L Device:D D1:3
+U 1 1 658057A3
+P 4175 2580
+F 0 "D1:3" H 4175 2675 50  0000 C CNN
+F 1 "1n4148" H 4175 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 2580 50  0001 C CNN
+F 3 "~" H 4175 2580 50  0001 C CNN
+	1    4175 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 2580 4325 2480
+Wire Wire Line
+	4025 2580 3925 2580
+Connection ~ 3925 2580
+Connection ~ 4125 2180
+$Comp
+L Switch:SW_Push_45deg SW2:3
+U 1 1 658057B3
+P 4225 2880
+F 0 "SW2:3" H 4305 3035 50  0000 C CNN
+F 1 "KEY_6" V 4045 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 2880 50  0001 C CNN
+F 3 "~" H 4225 2880 50  0001 C CNN
+	1    4225 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 2780 4125 2680
+$Comp
+L Device:D D2:3
+U 1 1 658057BA
+P 4175 3080
+F 0 "D2:3" H 4175 3175 50  0000 C CNN
+F 1 "1n4148" H 4175 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 3080 50  0001 C CNN
+F 3 "~" H 4175 3080 50  0001 C CNN
+	1    4175 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 3080 4325 2980
+Wire Wire Line
+	4025 3080 3925 3080
+$Comp
+L Switch:SW_Push_45deg SW3:3
+U 1 1 658057C2
+P 4225 3380
+F 0 "SW3:3" H 4305 3535 50  0000 C CNN
+F 1 "KEY_8" V 4045 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 3380 50  0001 C CNN
+F 3 "~" H 4225 3380 50  0001 C CNN
+	1    4225 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 3280 4125 3180
+$Comp
+L Device:D D3:3
+U 1 1 658057C9
+P 4175 3580
+F 0 "D3:3" H 4175 3675 50  0000 C CNN
+F 1 "1n4148" H 4175 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 3580 50  0001 C CNN
+F 3 "~" H 4175 3580 50  0001 C CNN
+	1    4175 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 3580 4325 3480
+Wire Wire Line
+	4025 3580 3925 3580
+$Comp
+L Switch:SW_Push_45deg SW4:3
+U 1 1 658057D1
+P 4225 3880
+F 0 "SW4:3" H 4305 4035 50  0000 C CNN
+F 1 "KEY_0" V 4045 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 3880 50  0001 C CNN
+F 3 "~" H 4225 3880 50  0001 C CNN
+	1    4225 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 3780 4125 3680
+$Comp
+L Device:D D4:3
+U 1 1 658057D8
+P 4175 4080
+F 0 "D4:3" H 4175 4175 50  0000 C CNN
+F 1 "1n4148" H 4175 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 4080 50  0001 C CNN
+F 3 "~" H 4175 4080 50  0001 C CNN
+	1    4175 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 4080 4325 3980
+Wire Wire Line
+	4025 4080 3925 4080
+Wire Wire Line
+	4125 4280 4125 4180
+$Comp
+L Device:D D5:3
+U 1 1 658057E1
+P 4175 4580
+F 0 "D5:3" H 4175 4675 50  0000 C CNN
+F 1 "1n4148" H 4175 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 4580 50  0001 C CNN
+F 3 "~" H 4175 4580 50  0001 C CNN
+	1    4175 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 4580 4325 4480
+Wire Wire Line
+	4025 4580 3925 4580
+$Comp
+L Switch:SW_Push_45deg SW6:3
+U 1 1 658057E9
+P 4225 4880
+F 0 "SW6:3" H 4305 5035 50  0000 C CNN
+F 1 "KEY_RT" V 4045 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 4880 50  0001 C CNN
+F 3 "~" H 4225 4880 50  0001 C CNN
+	1    4225 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 4780 4125 4680
+$Comp
+L Device:D D6:3
+U 1 1 658057F0
+P 4175 5080
+F 0 "D6:3" H 4175 5175 50  0000 C CNN
+F 1 "1n4148" H 4175 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 5080 50  0001 C CNN
+F 3 "~" H 4175 5080 50  0001 C CNN
+	1    4175 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 5080 4325 4980
+Wire Wire Line
+	4025 5080 3925 5080
+$Comp
+L Switch:SW_Push_45deg SW7:3
+U 1 1 658057F8
+P 4225 5380
+F 0 "SW7:3" H 4305 5535 50  0000 C CNN
+F 1 "KEY_2" V 4045 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 5380 50  0001 C CNN
+F 3 "~" H 4225 5380 50  0001 C CNN
+	1    4225 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 5280 4125 5180
+$Comp
+L Device:D D7:3
+U 1 1 658057FF
+P 4175 5580
+F 0 "D7:3" H 4175 5675 50  0000 C CNN
+F 1 "1n4148" H 4175 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4175 5580 50  0001 C CNN
+F 3 "~" H 4175 5580 50  0001 C CNN
+	1    4175 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 5580 4325 5480
+Wire Wire Line
+	4025 5580 3925 5580
+$Comp
+L Switch:SW_Push_45deg SW5:3
+U 1 1 65805807
+P 4225 4380
+F 0 "SW5:3" H 4305 4535 50  0000 C CNN
+F 1 "KEY_UP" V 4045 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4225 4380 50  0001 C CNN
+F 3 "~" H 4225 4380 50  0001 C CNN
+	1    4225 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 4125 5180
+Connection ~ 3925 5080
+Connection ~ 4125 4680
+Connection ~ 3925 4580
+Connection ~ 4125 4180
+Connection ~ 3925 4080
+Connection ~ 4125 3680
+Connection ~ 3925 3580
+Connection ~ 4125 3180
+Connection ~ 3925 3080
+Connection ~ 4125 2680
+Wire Wire Line
+	3925 2080 3925 2580
+Wire Wire Line
+	3925 2580 3925 3080
+Wire Wire Line
+	3925 5080 3925 5580
+Wire Wire Line
+	3925 4580 3925 5080
+Wire Wire Line
+	3925 4080 3925 4580
+Wire Wire Line
+	3925 3580 3925 4080
+Wire Wire Line
+	3925 3080 3925 3580
+$Comp
+L Switch:SW_Push_45deg SW0:4
+U 1 1 6581A489
+P 4725 1880
+F 0 "SW0:4" H 4800 2035 50  0000 C CNN
+F 1 "KEY_F1" V 4545 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 4725 1880 50  0001 C CNN
+F 3 "~" H 4725 1880 50  0001 C CNN
+	1    4725 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 1780 4625 1680
+$Comp
+L Device:D D0:4
+U 1 1 6581A491
+P 4675 2080
+F 0 "D0:4" H 4675 2175 50  0000 C CNN
+F 1 "1n4148" H 4675 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 2080 50  0001 C CNN
+F 3 "~" H 4675 2080 50  0001 C CNN
+	1    4675 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 2080 4825 1980
+Wire Wire Line
+	4525 2080 4425 2080
+Connection ~ 4425 2080
+$Comp
+L Switch:SW_Push_45deg SW1:4
+U 1 1 6581A49B
+P 4725 2380
+F 0 "SW1:4" H 4805 2535 50  0000 C CNN
+F 1 "KEY_Z" V 4545 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 2380 50  0001 C CNN
+F 3 "~" H 4725 2380 50  0001 C CNN
+	1    4725 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 2280 4625 2180
+$Comp
+L Device:D D1:4
+U 1 1 6581A4A2
+P 4675 2580
+F 0 "D1:4" H 4675 2675 50  0000 C CNN
+F 1 "1n4148" H 4675 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 2580 50  0001 C CNN
+F 3 "~" H 4675 2580 50  0001 C CNN
+	1    4675 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 2580 4825 2480
+Wire Wire Line
+	4525 2580 4425 2580
+Connection ~ 4425 2580
+Connection ~ 4625 2180
+$Comp
+L Switch:SW_Push_45deg SW2:4
+U 1 1 6581A4B2
+P 4725 2880
+F 0 "SW2:4" H 4805 3035 50  0000 C CNN
+F 1 "KEY_C" V 4545 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 2880 50  0001 C CNN
+F 3 "~" H 4725 2880 50  0001 C CNN
+	1    4725 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 2780 4625 2680
+$Comp
+L Device:D D2:4
+U 1 1 6581A4B9
+P 4675 3080
+F 0 "D2:4" H 4675 3175 50  0000 C CNN
+F 1 "1n4148" H 4675 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 3080 50  0001 C CNN
+F 3 "~" H 4675 3080 50  0001 C CNN
+	1    4675 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 3080 4825 2980
+Wire Wire Line
+	4525 3080 4425 3080
+$Comp
+L Switch:SW_Push_45deg SW3:4
+U 1 1 6581A4C1
+P 4725 3380
+F 0 "SW3:4" H 4805 3535 50  0000 C CNN
+F 1 "KEY_B" V 4545 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 3380 50  0001 C CNN
+F 3 "~" H 4725 3380 50  0001 C CNN
+	1    4725 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 3280 4625 3180
+$Comp
+L Device:D D3:4
+U 1 1 6581A4C8
+P 4675 3580
+F 0 "D3:4" H 4675 3675 50  0000 C CNN
+F 1 "1n4148" H 4675 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 3580 50  0001 C CNN
+F 3 "~" H 4675 3580 50  0001 C CNN
+	1    4675 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 3580 4825 3480
+Wire Wire Line
+	4525 3580 4425 3580
+$Comp
+L Switch:SW_Push_45deg SW4:4
+U 1 1 6581A4D0
+P 4725 3880
+F 0 "SW4:4" H 4805 4035 50  0000 C CNN
+F 1 "KEY_M" V 4545 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 3880 50  0001 C CNN
+F 3 "~" H 4725 3880 50  0001 C CNN
+	1    4725 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 3780 4625 3680
+$Comp
+L Device:D D4:4
+U 1 1 6581A4D7
+P 4675 4080
+F 0 "D4:4" H 4675 4175 50  0000 C CNN
+F 1 "1n4148" H 4675 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 4080 50  0001 C CNN
+F 3 "~" H 4675 4080 50  0001 C CNN
+	1    4675 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 4080 4825 3980
+Wire Wire Line
+	4525 4080 4425 4080
+Wire Wire Line
+	4625 4280 4625 4180
+$Comp
+L Device:D D5:4
+U 1 1 6581A4E0
+P 4675 4580
+F 0 "D5:4" H 4675 4675 50  0000 C CNN
+F 1 "1n4148" H 4675 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 4580 50  0001 C CNN
+F 3 "~" H 4675 4580 50  0001 C CNN
+	1    4675 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 4580 4825 4480
+Wire Wire Line
+	4525 4580 4425 4580
+$Comp
+L Switch:SW_Push_45deg SW6:4
+U 1 1 6581A4E8
+P 4725 4880
+F 0 "SW6:4" H 4805 5035 50  0000 C CNN
+F 1 "KEY_ESC" V 4545 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 4880 50  0001 C CNN
+F 3 "~" H 4725 4880 50  0001 C CNN
+	1    4725 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 4780 4625 4680
+$Comp
+L Device:D D6:4
+U 1 1 6581A4EF
+P 4675 5080
+F 0 "D6:4" H 4675 5175 50  0000 C CNN
+F 1 "1n4148" H 4675 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 5080 50  0001 C CNN
+F 3 "~" H 4675 5080 50  0001 C CNN
+	1    4675 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5080 4825 4980
+Wire Wire Line
+	4525 5080 4425 5080
+$Comp
+L Switch:SW_Push_45deg SW7:4
+U 1 1 6581A4F7
+P 4725 5380
+F 0 "SW7:4" H 4805 5535 50  0000 C CNN
+F 1 "KEY_SPC" V 4545 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 5380 50  0001 C CNN
+F 3 "~" H 4725 5380 50  0001 C CNN
+	1    4725 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 5280 4625 5180
+$Comp
+L Device:D D7:4
+U 1 1 6581A4FE
+P 4675 5580
+F 0 "D7:4" H 4675 5675 50  0000 C CNN
+F 1 "1n4148" H 4675 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4675 5580 50  0001 C CNN
+F 3 "~" H 4675 5580 50  0001 C CNN
+	1    4675 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5580 4825 5480
+Wire Wire Line
+	4525 5580 4425 5580
+$Comp
+L Switch:SW_Push_45deg SW5:4
+U 1 1 6581A506
+P 4725 4380
+F 0 "SW5:4" H 4805 4535 50  0000 C CNN
+F 1 "KEY_DOT" V 4545 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 4725 4380 50  0001 C CNN
+F 3 "~" H 4725 4380 50  0001 C CNN
+	1    4725 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 4625 5180
+Connection ~ 4425 5080
+Connection ~ 4625 4680
+Connection ~ 4425 4580
+Connection ~ 4625 4180
+Connection ~ 4425 4080
+Connection ~ 4625 3680
+Connection ~ 4425 3580
+Connection ~ 4625 3180
+Connection ~ 4425 3080
+Connection ~ 4625 2680
+Wire Wire Line
+	4425 2080 4425 2580
+Wire Wire Line
+	4425 2580 4425 3080
+Wire Wire Line
+	4425 5080 4425 5580
+Wire Wire Line
+	4425 4580 4425 5080
+Wire Wire Line
+	4425 4080 4425 4580
+Wire Wire Line
+	4425 3580 4425 4080
+Wire Wire Line
+	4425 3080 4425 3580
+$Comp
+L Switch:SW_Push_45deg SW0:5
+U 1 1 65838F0C
+P 5225 1880
+F 0 "SW0:5" H 5300 2035 50  0000 C CNN
+F 1 "KEY_F2" V 5045 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 5225 1880 50  0001 C CNN
+F 3 "~" H 5225 1880 50  0001 C CNN
+	1    5225 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 1780 5125 1680
+$Comp
+L Device:D D0:5
+U 1 1 65838F14
+P 5175 2080
+F 0 "D0:5" H 5175 2175 50  0000 C CNN
+F 1 "1n4148" H 5175 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 2080 50  0001 C CNN
+F 3 "~" H 5175 2080 50  0001 C CNN
+	1    5175 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 2080 5325 1980
+Wire Wire Line
+	5025 2080 4925 2080
+Connection ~ 4925 2080
+$Comp
+L Switch:SW_Push_45deg SW1:5
+U 1 1 65838F1E
+P 5225 2380
+F 0 "SW1:5" H 5305 2535 50  0000 C CNN
+F 1 "KEY_S" V 5045 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 2380 50  0001 C CNN
+F 3 "~" H 5225 2380 50  0001 C CNN
+	1    5225 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 2280 5125 2180
+$Comp
+L Device:D D1:5
+U 1 1 65838F25
+P 5175 2580
+F 0 "D1:5" H 5175 2675 50  0000 C CNN
+F 1 "1n4148" H 5175 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 2580 50  0001 C CNN
+F 3 "~" H 5175 2580 50  0001 C CNN
+	1    5175 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 2580 5325 2480
+Wire Wire Line
+	5025 2580 4925 2580
+Connection ~ 4925 2580
+Connection ~ 5125 2180
+$Comp
+L Switch:SW_Push_45deg SW2:5
+U 1 1 65838F35
+P 5225 2880
+F 0 "SW2:5" H 5305 3035 50  0000 C CNN
+F 1 "KEY_F" V 5045 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 2880 50  0001 C CNN
+F 3 "~" H 5225 2880 50  0001 C CNN
+	1    5225 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 2780 5125 2680
+$Comp
+L Device:D D2:5
+U 1 1 65838F3C
+P 5175 3080
+F 0 "D2:5" H 5175 3175 50  0000 C CNN
+F 1 "1n4148" H 5175 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 3080 50  0001 C CNN
+F 3 "~" H 5175 3080 50  0001 C CNN
+	1    5175 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 3080 5325 2980
+Wire Wire Line
+	5025 3080 4925 3080
+$Comp
+L Switch:SW_Push_45deg SW3:5
+U 1 1 65838F44
+P 5225 3380
+F 0 "SW3:5" H 5305 3535 50  0000 C CNN
+F 1 "KEY_H" V 5045 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 3380 50  0001 C CNN
+F 3 "~" H 5225 3380 50  0001 C CNN
+	1    5225 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 3280 5125 3180
+$Comp
+L Device:D D3:5
+U 1 1 65838F4B
+P 5175 3580
+F 0 "D3:5" H 5175 3675 50  0000 C CNN
+F 1 "1n4148" H 5175 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 3580 50  0001 C CNN
+F 3 "~" H 5175 3580 50  0001 C CNN
+	1    5175 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 3580 5325 3480
+Wire Wire Line
+	5025 3580 4925 3580
+$Comp
+L Switch:SW_Push_45deg SW4:5
+U 1 1 65838F53
+P 5225 3880
+F 0 "SW4:5" H 5305 4035 50  0000 C CNN
+F 1 "KEY_K" V 5045 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 3880 50  0001 C CNN
+F 3 "~" H 5225 3880 50  0001 C CNN
+	1    5225 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 3780 5125 3680
+$Comp
+L Device:D D4:5
+U 1 1 65838F5A
+P 5175 4080
+F 0 "D4:5" H 5175 4175 50  0000 C CNN
+F 1 "1n4148" H 5175 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 4080 50  0001 C CNN
+F 3 "~" H 5175 4080 50  0001 C CNN
+	1    5175 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 4080 5325 3980
+Wire Wire Line
+	5025 4080 4925 4080
+Wire Wire Line
+	5125 4280 5125 4180
+$Comp
+L Device:D D5:5
+U 1 1 65838F63
+P 5175 4580
+F 0 "D5:5" H 5175 4675 50  0000 C CNN
+F 1 "1n4148" H 5175 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 4580 50  0001 C CNN
+F 3 "~" H 5175 4580 50  0001 C CNN
+	1    5175 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 4580 5325 4480
+Wire Wire Line
+	5025 4580 4925 4580
+$Comp
+L Switch:SW_Push_45deg SW6:5
+U 1 1 65838F6B
+P 5225 4880
+F 0 "SW6:5" H 5305 5035 50  0000 C CNN
+F 1 "KEY_EQ" V 5045 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 4880 50  0001 C CNN
+F 3 "~" H 5225 4880 50  0001 C CNN
+	1    5225 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 4780 5125 4680
+$Comp
+L Device:D D6:5
+U 1 1 65838F72
+P 5175 5080
+F 0 "D6:5" H 5175 5175 50  0000 C CNN
+F 1 "1n4148" H 5175 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 5080 50  0001 C CNN
+F 3 "~" H 5175 5080 50  0001 C CNN
+	1    5175 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 5080 5325 4980
+Wire Wire Line
+	5025 5080 4925 5080
+$Comp
+L Switch:SW_Push_45deg SW7:5
+U 1 1 65838F7A
+P 5225 5380
+F 0 "SW7:5" H 5305 5535 50  0000 C CNN
+F 1 "KEY_CMD" V 5045 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 5380 50  0001 C CNN
+F 3 "~" H 5225 5380 50  0001 C CNN
+	1    5225 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 5280 5125 5180
+$Comp
+L Device:D D7:5
+U 1 1 65838F81
+P 5175 5580
+F 0 "D7:5" H 5175 5675 50  0000 C CNN
+F 1 "1n4148" H 5175 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5175 5580 50  0001 C CNN
+F 3 "~" H 5175 5580 50  0001 C CNN
+	1    5175 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 5580 5325 5480
+Wire Wire Line
+	5025 5580 4925 5580
+$Comp
+L Switch:SW_Push_45deg SW5:5
+U 1 1 65838F89
+P 5225 4380
+F 0 "SW5:5" H 5305 4535 50  0000 C CNN
+F 1 "KEY_COL" V 5045 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5225 4380 50  0001 C CNN
+F 3 "~" H 5225 4380 50  0001 C CNN
+	1    5225 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 5125 5180
+Connection ~ 4925 5080
+Connection ~ 5125 4680
+Connection ~ 4925 4580
+Connection ~ 5125 4180
+Connection ~ 4925 4080
+Connection ~ 5125 3680
+Connection ~ 4925 3580
+Connection ~ 5125 3180
+Connection ~ 4925 3080
+Connection ~ 5125 2680
+Wire Wire Line
+	4925 2080 4925 2580
+Wire Wire Line
+	4925 2580 4925 3080
+Wire Wire Line
+	4925 5080 4925 5580
+Wire Wire Line
+	4925 4580 4925 5080
+Wire Wire Line
+	4925 4080 4925 4580
+Wire Wire Line
+	4925 3580 4925 4080
+Wire Wire Line
+	4925 3080 4925 3580
+$Comp
+L Switch:SW_Push_45deg SW0:6
+U 1 1 6586B7F1
+P 5725 1880
+F 0 "SW0:6" H 5800 2035 50  0000 C CNN
+F 1 "KEY_F3" V 5545 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 5725 1880 50  0001 C CNN
+F 3 "~" H 5725 1880 50  0001 C CNN
+	1    5725 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 1780 5625 1680
+Connection ~ 5625 1680
+$Comp
+L Device:D D0:6
+U 1 1 6586B7F9
+P 5675 2080
+F 0 "D0:6" H 5675 2175 50  0000 C CNN
+F 1 "1n4148" H 5675 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 2080 50  0001 C CNN
+F 3 "~" H 5675 2080 50  0001 C CNN
+	1    5675 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2080 5825 1980
+Wire Wire Line
+	5525 2080 5425 2080
+Connection ~ 5425 2080
+$Comp
+L Switch:SW_Push_45deg SW1:6
+U 1 1 6586B803
+P 5725 2380
+F 0 "SW1:6" H 5805 2535 50  0000 C CNN
+F 1 "KEY_E" V 5545 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 2380 50  0001 C CNN
+F 3 "~" H 5725 2380 50  0001 C CNN
+	1    5725 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2280 5625 2180
+$Comp
+L Device:D D1:6
+U 1 1 6586B80A
+P 5675 2580
+F 0 "D1:6" H 5675 2675 50  0000 C CNN
+F 1 "1n4148" H 5675 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 2580 50  0001 C CNN
+F 3 "~" H 5675 2580 50  0001 C CNN
+	1    5675 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 2580 5825 2480
+Wire Wire Line
+	5525 2580 5425 2580
+Connection ~ 5425 2580
+Connection ~ 5625 2180
+$Comp
+L Switch:SW_Push_45deg SW2:6
+U 1 1 6586B81A
+P 5725 2880
+F 0 "SW2:6" H 5805 3035 50  0000 C CNN
+F 1 "KEY_T" V 5545 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 2880 50  0001 C CNN
+F 3 "~" H 5725 2880 50  0001 C CNN
+	1    5725 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2780 5625 2680
+$Comp
+L Device:D D2:6
+U 1 1 6586B821
+P 5675 3080
+F 0 "D2:6" H 5675 3175 50  0000 C CNN
+F 1 "1n4148" H 5675 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 3080 50  0001 C CNN
+F 3 "~" H 5675 3080 50  0001 C CNN
+	1    5675 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 3080 5825 2980
+Wire Wire Line
+	5525 3080 5425 3080
+$Comp
+L Switch:SW_Push_45deg SW3:6
+U 1 1 6586B829
+P 5725 3380
+F 0 "SW3:6" H 5805 3535 50  0000 C CNN
+F 1 "KEY_U" V 5545 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 3380 50  0001 C CNN
+F 3 "~" H 5725 3380 50  0001 C CNN
+	1    5725 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3280 5625 3180
+$Comp
+L Device:D D3:6
+U 1 1 6586B830
+P 5675 3580
+F 0 "D3:6" H 5675 3675 50  0000 C CNN
+F 1 "1n4148" H 5675 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 3580 50  0001 C CNN
+F 3 "~" H 5675 3580 50  0001 C CNN
+	1    5675 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 3580 5825 3480
+Wire Wire Line
+	5525 3580 5425 3580
+$Comp
+L Switch:SW_Push_45deg SW4:6
+U 1 1 6586B838
+P 5725 3880
+F 0 "SW4:6" H 5805 4035 50  0000 C CNN
+F 1 "KEY_O" V 5545 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 3880 50  0001 C CNN
+F 3 "~" H 5725 3880 50  0001 C CNN
+	1    5725 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3780 5625 3680
+$Comp
+L Device:D D4:6
+U 1 1 6586B83F
+P 5675 4080
+F 0 "D4:6" H 5675 4175 50  0000 C CNN
+F 1 "1n4148" H 5675 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 4080 50  0001 C CNN
+F 3 "~" H 5675 4080 50  0001 C CNN
+	1    5675 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 4080 5825 3980
+Wire Wire Line
+	5525 4080 5425 4080
+Wire Wire Line
+	5625 4280 5625 4180
+$Comp
+L Device:D D5:6
+U 1 1 6586B848
+P 5675 4580
+F 0 "D5:6" H 5675 4675 50  0000 C CNN
+F 1 "1n4148" H 5675 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 4580 50  0001 C CNN
+F 3 "~" H 5675 4580 50  0001 C CNN
+	1    5675 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 4580 5825 4480
+Wire Wire Line
+	5525 4580 5425 4580
+$Comp
+L Switch:SW_Push_45deg SW6:6
+U 1 1 6586B850
+P 5725 4880
+F 0 "SW6:6" H 5805 5035 50  0000 C CNN
+F 1 "KEY_PLS" V 5545 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 4880 50  0001 C CNN
+F 3 "~" H 5725 4880 50  0001 C CNN
+	1    5725 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 4780 5625 4680
+$Comp
+L Device:D D6:6
+U 1 1 6586B857
+P 5675 5080
+F 0 "D6:6" H 5675 5175 50  0000 C CNN
+F 1 "1n4148" H 5675 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 5080 50  0001 C CNN
+F 3 "~" H 5675 5080 50  0001 C CNN
+	1    5675 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 5080 5825 4980
+Wire Wire Line
+	5525 5080 5425 5080
+$Comp
+L Switch:SW_Push_45deg SW7:6
+U 1 1 6586B85F
+P 5725 5380
+F 0 "SW7:6" H 5805 5535 50  0000 C CNN
+F 1 "KEY_Q" V 5545 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 5380 50  0001 C CNN
+F 3 "~" H 5725 5380 50  0001 C CNN
+	1    5725 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 5280 5625 5180
+$Comp
+L Device:D D7:6
+U 1 1 6586B866
+P 5675 5580
+F 0 "D7:6" H 5675 5675 50  0000 C CNN
+F 1 "1n4148" H 5675 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5675 5580 50  0001 C CNN
+F 3 "~" H 5675 5580 50  0001 C CNN
+	1    5675 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 5580 5825 5480
+Wire Wire Line
+	5525 5580 5425 5580
+$Comp
+L Switch:SW_Push_45deg SW5:6
+U 1 1 6586B86E
+P 5725 4380
+F 0 "SW5:6" H 5805 4535 50  0000 C CNN
+F 1 "KEY_MIN" V 5545 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 5725 4380 50  0001 C CNN
+F 3 "~" H 5725 4380 50  0001 C CNN
+	1    5725 4380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2180 6125 2180
+Wire Wire Line
+	5625 1680 6125 1680
+Connection ~ 5625 5180
+Wire Wire Line
+	5625 5180 6125 5180
+Connection ~ 5425 5080
+Connection ~ 5625 4680
+Wire Wire Line
+	5625 4680 6125 4680
+Connection ~ 5425 4580
+Connection ~ 5625 4180
+Wire Wire Line
+	5625 4180 6125 4180
+Connection ~ 5425 4080
+Connection ~ 5625 3680
+Wire Wire Line
+	5625 3680 6125 3680
+Connection ~ 5425 3580
+Connection ~ 5625 3180
+Wire Wire Line
+	5625 3180 6125 3180
+Connection ~ 5425 3080
+Connection ~ 5625 2680
+Wire Wire Line
+	5625 2680 6125 2680
+Wire Wire Line
+	5425 2080 5425 2580
+Wire Wire Line
+	5425 2580 5425 3080
+Wire Wire Line
+	5425 5080 5425 5580
+Wire Wire Line
+	5425 4580 5425 5080
+Wire Wire Line
+	5425 4080 5425 4580
+Wire Wire Line
+	5425 3580 5425 4080
+Wire Wire Line
+	5425 3080 5425 3580
+$Comp
+L Switch:SW_Push_45deg SW0:7
+U 1 1 6589AE9E
+P 6225 1880
+F 0 "SW0:7" H 6300 2035 50  0000 C CNN
+F 1 "KEY_AT" V 6045 1880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 1880 50  0001 C CNN
+F 3 "~" H 6225 1880 50  0001 C CNN
+	1    6225 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 1780 6125 1680
+$Comp
+L Device:D D0:7
+U 1 1 6589AEA6
+P 6175 2080
+F 0 "D0:7" H 6175 2175 50  0000 C CNN
+F 1 "1n4148" H 6175 2206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 2080 50  0001 C CNN
+F 3 "~" H 6175 2080 50  0001 C CNN
+	1    6175 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 2080 6325 1980
+Wire Wire Line
+	6025 2080 5925 2080
+Connection ~ 5925 2080
+$Comp
+L Switch:SW_Push_45deg SW1:7
+U 1 1 6589AEB0
+P 6225 2380
+F 0 "SW1:7" H 6305 2535 50  0000 C CNN
+F 1 "KEY_LSH" V 6045 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 6225 2380 50  0001 C CNN
+F 3 "~" H 6225 2380 50  0001 C CNN
+	1    6225 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 2280 6125 2180
+$Comp
+L Device:D D1:7
+U 1 1 6589AEB7
+P 6175 2580
+F 0 "D1:7" H 6175 2675 50  0000 C CNN
+F 1 "1n4148" H 6175 2706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 2580 50  0001 C CNN
+F 3 "~" H 6175 2580 50  0001 C CNN
+	1    6175 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 2580 6325 2480
+Wire Wire Line
+	6025 2580 5925 2580
+Connection ~ 5925 2580
+$Comp
+L Switch:SW_Push_45deg SW2:7
+U 1 1 6589AEC7
+P 6225 2880
+F 0 "SW2:7" H 6305 3035 50  0000 C CNN
+F 1 "KEY_X" V 6045 2880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 2880 50  0001 C CNN
+F 3 "~" H 6225 2880 50  0001 C CNN
+	1    6225 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 2780 6125 2680
+$Comp
+L Device:D D2:7
+U 1 1 6589AECE
+P 6175 3080
+F 0 "D2:7" H 6175 3175 50  0000 C CNN
+F 1 "1n4148" H 6175 3206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 3080 50  0001 C CNN
+F 3 "~" H 6175 3080 50  0001 C CNN
+	1    6175 3080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 3080 6325 2980
+Wire Wire Line
+	6025 3080 5925 3080
+$Comp
+L Switch:SW_Push_45deg SW3:7
+U 1 1 6589AED6
+P 6225 3380
+F 0 "SW3:7" H 6305 3535 50  0000 C CNN
+F 1 "KEY_V" V 6045 3380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 3380 50  0001 C CNN
+F 3 "~" H 6225 3380 50  0001 C CNN
+	1    6225 3380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 3280 6125 3180
+$Comp
+L Device:D D3:7
+U 1 1 6589AEDD
+P 6175 3580
+F 0 "D3:7" H 6175 3675 50  0000 C CNN
+F 1 "1n4148" H 6175 3706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 3580 50  0001 C CNN
+F 3 "~" H 6175 3580 50  0001 C CNN
+	1    6175 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 3580 6325 3480
+Wire Wire Line
+	6025 3580 5925 3580
+$Comp
+L Switch:SW_Push_45deg SW4:7
+U 1 1 6589AEE5
+P 6225 3880
+F 0 "SW4:7" H 6305 4035 50  0000 C CNN
+F 1 "KEY_N" V 6045 3880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 3880 50  0001 C CNN
+F 3 "~" H 6225 3880 50  0001 C CNN
+	1    6225 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 3780 6125 3680
+$Comp
+L Device:D D4:7
+U 1 1 6589AEEC
+P 6175 4080
+F 0 "D4:7" H 6175 4175 50  0000 C CNN
+F 1 "1n4148" H 6175 4206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 4080 50  0001 C CNN
+F 3 "~" H 6175 4080 50  0001 C CNN
+	1    6175 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 4080 6325 3980
+Wire Wire Line
+	6025 4080 5925 4080
+Wire Wire Line
+	6125 4280 6125 4180
+$Comp
+L Device:D D5:7
+U 1 1 6589AEF5
+P 6175 4580
+F 0 "D5:7" H 6175 4675 50  0000 C CNN
+F 1 "1n4148" H 6175 4706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 4580 50  0001 C CNN
+F 3 "~" H 6175 4580 50  0001 C CNN
+	1    6175 4580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 4580 6325 4480
+Wire Wire Line
+	6025 4580 5925 4580
+$Comp
+L Switch:SW_Push_45deg SW6:7
+U 1 1 6589AEFD
+P 6225 4880
+F 0 "SW6:7" H 6305 5035 50  0000 C CNN
+F 1 "KEY_SLA" V 6045 4880 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 4880 50  0001 C CNN
+F 3 "~" H 6225 4880 50  0001 C CNN
+	1    6225 4880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 4780 6125 4680
+$Comp
+L Device:D D6:7
+U 1 1 6589AF04
+P 6175 5080
+F 0 "D6:7" H 6175 5175 50  0000 C CNN
+F 1 "1n4148" H 6175 5206 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 5080 50  0001 C CNN
+F 3 "~" H 6175 5080 50  0001 C CNN
+	1    6175 5080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 5080 6325 4980
+Wire Wire Line
+	6025 5080 5925 5080
+$Comp
+L Switch:SW_Push_45deg SW7:7
+U 1 1 6589AF0C
+P 6225 5380
+F 0 "SW7:7" H 6305 5535 50  0000 C CNN
+F 1 "KEY_RUN" V 6045 5380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 5380 50  0001 C CNN
+F 3 "~" H 6225 5380 50  0001 C CNN
+	1    6225 5380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 5280 6125 5180
+$Comp
+L Device:D D7:7
+U 1 1 6589AF13
+P 6175 5580
+F 0 "D7:7" H 6175 5675 50  0000 C CNN
+F 1 "1n4148" H 6175 5706 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6175 5580 50  0001 C CNN
+F 3 "~" H 6175 5580 50  0001 C CNN
+	1    6175 5580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 5580 6325 5480
+Wire Wire Line
+	6025 5580 5925 5580
+$Comp
+L Switch:SW_Push_45deg SW5:7
+U 1 1 6589AF1B
+P 6225 4380
+F 0 "SW5:7" H 6305 4535 50  0000 C CNN
+F 1 "KEY_COM" V 6045 4380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 6225 4380 50  0001 C CNN
+F 3 "~" H 6225 4380 50  0001 C CNN
+	1    6225 4380
+	1    0    0    -1  
+$EndComp
+Connection ~ 5925 5080
+Connection ~ 5925 4580
+Connection ~ 5925 4080
+Connection ~ 5925 3580
+Connection ~ 5925 3080
+Wire Wire Line
+	5925 2080 5925 2580
+Wire Wire Line
+	5925 2580 5925 3080
+Wire Wire Line
+	5925 5080 5925 5580
+Wire Wire Line
+	5925 4580 5925 5080
+Wire Wire Line
+	5925 4080 5925 4580
+Wire Wire Line
+	5925 3580 5925 4080
+Wire Wire Line
+	5925 3080 5925 3580
+Wire Wire Line
+	1770 4180 2625 4180
+Connection ~ 2625 4180
+Wire Wire Line
+	2625 4180 3125 4180
+Connection ~ 3125 4180
+Wire Wire Line
+	3125 4180 3625 4180
+Connection ~ 3625 4180
+Wire Wire Line
+	3625 4180 4125 4180
+Wire Wire Line
+	4125 4180 4625 4180
+Wire Wire Line
+	4625 4180 5125 4180
+Wire Wire Line
+	5125 4180 5625 4180
+Wire Wire Line
+	4770 2180 5125 2180
+Wire Wire Line
+	2625 2180 3125 2180
+Wire Wire Line
+	3125 2180 3625 2180
+Wire Wire Line
+	3625 2180 4125 2180
+Wire Wire Line
+	4125 2180 4625 2180
+Wire Wire Line
+	4625 2180 5125 2180
+Wire Wire Line
+	5125 2180 5625 2180
+Wire Wire Line
+	1770 2180 2625 2180
+Wire Wire Line
+	2625 2680 3125 2680
+Wire Wire Line
+	3125 2680 3625 2680
+Wire Wire Line
+	3625 2680 4125 2680
+Wire Wire Line
+	4125 2680 4625 2680
+Wire Wire Line
+	4625 2680 5125 2680
+Wire Wire Line
+	5125 2680 5625 2680
+Wire Wire Line
+	1770 2680 2625 2680
+Wire Wire Line
+	2625 3180 3125 3180
+Wire Wire Line
+	3125 3180 3625 3180
+Wire Wire Line
+	3625 3180 4125 3180
+Wire Wire Line
+	4125 3180 4625 3180
+Wire Wire Line
+	4625 3180 5125 3180
+Wire Wire Line
+	5125 3180 5625 3180
+Wire Wire Line
+	1770 3180 2625 3180
+Wire Wire Line
+	2625 3680 3125 3680
+Wire Wire Line
+	3125 3680 3625 3680
+Wire Wire Line
+	3625 3680 4125 3680
+Wire Wire Line
+	4125 3680 4625 3680
+Wire Wire Line
+	4625 3680 5125 3680
+Wire Wire Line
+	5125 3680 5625 3680
+Wire Wire Line
+	1770 3680 2625 3680
+Wire Wire Line
+	2625 4680 3125 4680
+Wire Wire Line
+	3125 4680 3625 4680
+Wire Wire Line
+	3625 4680 4125 4680
+Wire Wire Line
+	4125 4680 4625 4680
+Wire Wire Line
+	4625 4680 5125 4680
+Wire Wire Line
+	5125 4680 5625 4680
+Wire Wire Line
+	1770 4680 2625 4680
+Wire Wire Line
+	5125 5180 5625 5180
+Wire Wire Line
+	2625 5180 3125 5180
+Wire Wire Line
+	3125 5180 3625 5180
+Wire Wire Line
+	3625 5180 4125 5180
+Wire Wire Line
+	4125 5180 4625 5180
+Wire Wire Line
+	4625 5180 5125 5180
+Wire Wire Line
+	1770 5180 2625 5180
+Wire Wire Line
+	1770 1680 2625 1680
+Wire Wire Line
+	2625 1680 3125 1680
+Connection ~ 2625 1680
+Wire Wire Line
+	3125 1680 3625 1680
+Connection ~ 3125 1680
+Wire Wire Line
+	3625 1680 3625 1780
+Wire Wire Line
+	4125 1780 4125 1680
+Wire Wire Line
+	3625 1680 4125 1680
+Connection ~ 3625 1680
+Connection ~ 4125 1680
+Wire Wire Line
+	4125 1680 4625 1680
+Wire Wire Line
+	4625 1680 5125 1680
+Connection ~ 4625 1680
+Wire Wire Line
+	5125 1680 5625 1680
+Connection ~ 5125 1680
+$Comp
+L Connector:Conn_01x18_Male CN2
+U 1 1 663D324E
+P 10545 5230
+F 0 "CN2" H 10517 5204 50  0000 R CNN
+F 1 "CONN_+4" H 10517 5113 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal" H 10545 5230 50  0001 C CNN
+F 3 "~" H 10545 5230 50  0001 C CNN
+	1    10545 5230
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x20_Male CN1
+U 1 1 663D7733
+P 10550 2950
+F 0 "CN1" H 10522 2924 50  0000 R CNN
+F 1 "CONN_C16" H 10522 2833 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Horizontal" H 10550 2950 50  0001 C CNN
+F 3 "~" H 10550 2950 50  0001 C CNN
+	1    10550 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2050 9955 2050
+Wire Wire Line
+	10350 2250 9955 2250
+Wire Wire Line
+	10350 2350 10230 2350
+Wire Wire Line
+	10350 2550 9955 2550
+Wire Wire Line
+	10350 2650 9955 2650
+Wire Wire Line
+	10350 2750 9955 2750
+Wire Wire Line
+	10350 2850 9955 2850
+Wire Wire Line
+	10350 2950 9955 2950
+Wire Wire Line
+	10350 3050 9955 3050
+Wire Wire Line
+	10350 3150 9955 3150
+Wire Wire Line
+	10350 3250 9955 3250
+Wire Wire Line
+	10350 3350 9955 3350
+Wire Wire Line
+	10350 3450 9955 3450
+Wire Wire Line
+	10350 3550 9955 3550
+Wire Wire Line
+	10350 3650 9955 3650
+Wire Wire Line
+	10350 3750 9955 3750
+Wire Wire Line
+	10350 3850 9955 3850
+Wire Wire Line
+	10345 4430 9950 4430
+Wire Wire Line
+	10345 4530 9950 4530
+Wire Wire Line
+	10345 4630 10230 4630
+Wire Wire Line
+	10345 4830 9950 4830
+Wire Wire Line
+	10345 4930 9950 4930
+Wire Wire Line
+	10345 5030 9950 5030
+NoConn ~ 10350 2150
+Text Label 9955 2050 0    50   ~ 0
+row5
+Text Label 9950 4430 0    50   ~ 0
+row5
+Text Label 9955 2250 0    50   ~ 0
+col7
+Wire Wire Line
+	10230 2350 10230 4030
+$Comp
+L power:GND #PWR02
+U 1 1 6665368F
+P 10230 4030
+F 0 "#PWR02" H 10230 3780 50  0001 C CNN
+F 1 "GND" H 10235 3857 50  0000 C CNN
+F 2 "" H 10230 4030 50  0001 C CNN
+F 3 "" H 10230 4030 50  0001 C CNN
+	1    10230 4030
+	1    0    0    -1  
+$EndComp
+Text Label 9955 2550 0    50   ~ 0
+row7
+Text Label 9955 2650 0    50   ~ 0
+col4
+Text Label 9955 2750 0    50   ~ 0
+row1
+Text Label 9955 2850 0    50   ~ 0
+col5
+Text Label 9955 2950 0    50   ~ 0
+col6
+Text Label 9955 3050 0    50   ~ 0
+row3
+Text Label 9955 3150 0    50   ~ 0
+row2
+Text Label 9955 3250 0    50   ~ 0
+row4
+Text Label 9955 3350 0    50   ~ 0
+col2
+Text Label 9955 3450 0    50   ~ 0
+col1
+Text Label 9955 3550 0    50   ~ 0
+row6
+Text Label 9955 3650 0    50   ~ 0
+col3
+Text Label 9955 3750 0    50   ~ 0
+col0
+Text Label 9955 3850 0    50   ~ 0
+row0
+NoConn ~ 10350 3950
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 666B3C47
+P 9855 2225
+F 0 "JP1" V 9901 2300 50  0000 L CNN
+F 1 "JMP_VCC" V 9810 2300 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9855 2225 50  0001 C CNN
+F 3 "~" H 9855 2225 50  0001 C CNN
+	1    9855 2225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 2450 9855 2450
+Wire Wire Line
+	9855 2450 9855 2325
+Wire Wire Line
+	9855 2125 9855 1870
+$Comp
+L power:+5V #PWR01
+U 1 1 6672CC53
+P 9855 1870
+F 0 "#PWR01" H 9855 1720 50  0001 C CNN
+F 1 "+5V" H 9870 2043 50  0000 C CNN
+F 2 "" H 9855 1870 50  0001 C CNN
+F 3 "" H 9855 1870 50  0001 C CNN
+	1    9855 1870
+	1    0    0    -1  
+$EndComp
+Text Label 9950 4530 0    50   ~ 0
+col7
+Wire Wire Line
+	10230 4630 10230 6310
+$Comp
+L power:GND #PWR04
+U 1 1 6674C4FC
+P 10230 6310
+F 0 "#PWR04" H 10230 6060 50  0001 C CNN
+F 1 "GND" H 10235 6137 50  0000 C CNN
+F 2 "" H 10230 6310 50  0001 C CNN
+F 3 "" H 10230 6310 50  0001 C CNN
+	1    10230 6310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10345 4730 9850 4730
+$Comp
+L power:+5V #PWR03
+U 1 1 667867C3
+P 9850 4150
+F 0 "#PWR03" H 9850 4000 50  0001 C CNN
+F 1 "+5V" H 9865 4323 50  0000 C CNN
+F 2 "" H 9850 4150 50  0001 C CNN
+F 3 "" H 9850 4150 50  0001 C CNN
+	1    9850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4150 9850 4730
+Text Label 9950 4830 0    50   ~ 0
+row7
+Text Label 9950 5030 0    50   ~ 0
+row1
+Text Label 9950 4930 0    50   ~ 0
+col4
+Wire Wire Line
+	10345 5130 9950 5130
+Wire Wire Line
+	10345 5230 9950 5230
+Wire Wire Line
+	10345 5330 9950 5330
+Wire Wire Line
+	10345 5430 9950 5430
+Wire Wire Line
+	10345 5530 9950 5530
+Wire Wire Line
+	10345 5630 9950 5630
+Wire Wire Line
+	10345 5730 9950 5730
+Wire Wire Line
+	10345 5830 9950 5830
+Wire Wire Line
+	10345 5930 9950 5930
+Wire Wire Line
+	10345 6030 9950 6030
+Wire Wire Line
+	10345 6130 9950 6130
+Text Label 9950 5130 0    50   ~ 0
+col5
+Text Label 9950 5230 0    50   ~ 0
+col6
+Text Label 9950 5330 0    50   ~ 0
+row3
+Text Label 9950 5430 0    50   ~ 0
+row2
+Text Label 9950 5530 0    50   ~ 0
+row4
+Text Label 9950 5630 0    50   ~ 0
+col2
+Text Label 9950 5730 0    50   ~ 0
+col1
+Text Label 9950 5830 0    50   ~ 0
+row6
+Text Label 9950 5930 0    50   ~ 0
+col3
+Text Label 9950 6030 0    50   ~ 0
+col0
+Text Label 9950 6130 0    50   ~ 0
+row0
+$Comp
+L Switch:SW_Push_45deg SW1B:7
+U 1 1 66835462
+P 6725 2380
+F 0 "SW1B:7" H 6805 2535 50  0000 C CNN
+F 1 "KEY_RSH" V 6545 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 6725 2380 50  0001 C CNN
+F 3 "~" H 6725 2380 50  0001 C CNN
+	1    6725 2380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW1C:7
+U 1 1 668361B7
+P 7225 2380
+F 0 "SW1C:7" H 7300 2535 50  0000 C CNN
+F 1 "KEY_CLK" V 7045 2380 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 7225 2380 50  0001 C CNN
+F 3 "~" H 7225 2380 50  0001 C CNN
+	1    7225 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 2180 6625 2180
+Wire Wire Line
+	6625 2180 6625 2280
+Connection ~ 6125 2180
+Wire Wire Line
+	6625 2180 7125 2180
+Wire Wire Line
+	7125 2180 7125 2280
+Connection ~ 6625 2180
+Wire Wire Line
+	6325 2580 6825 2580
+Wire Wire Line
+	6825 2580 6825 2480
+Connection ~ 6325 2580
+Wire Wire Line
+	6825 2580 7325 2580
+Wire Wire Line
+	7325 2580 7325 2480
+Connection ~ 6825 2580
+$EndSCHEMATC

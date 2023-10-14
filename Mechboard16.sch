@@ -9,7 +9,7 @@ Date "2023-10-13"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
-Comment2 ""
+Comment2 "https://github.com/SukkoPera/MechBoard16"
 Comment3 "Heavily inspired by MechBoard64 by MtnBuffalo"
 Comment4 "https://www.breadbox64.com/blog/the-mechboard64/"
 $EndDescr
@@ -2209,7 +2209,7 @@ U 1 1 663D324E
 P 10365 1980
 F 0 "CN2" H 10337 1954 50  0000 R CNN
 F 1 "CONN_+4" H 10337 1863 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal" H 10365 1980 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 10365 1980 50  0001 C CNN
 F 3 "~" H 10365 1980 50  0001 C CNN
 	1    10365 1980
 	-1   0    0    -1  
@@ -2220,7 +2220,7 @@ U 1 1 663D7733
 P 9005 2080
 F 0 "CN1" H 8977 2054 50  0000 R CNN
 F 1 "CONN_C16" H 8977 1963 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Horizontal" H 9005 2080 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9005 2080 50  0001 C CNN
 F 3 "~" H 9005 2080 50  0001 C CNN
 	1    9005 2080
 	-1   0    0    -1  
@@ -2827,9 +2827,9 @@ Text Notes 8200 4120 0    50   ~ 0
 Text Notes 5405 6555 0    50   ~ 0
 SPARES
 Text Label 10810 4615 2    50   ~ 0
-col7
+shift_b
 Text Label 9705 4615 0    50   ~ 0
-row1
+shift_a
 Wire Wire Line
 	10490 4515 10585 4515
 Wire Wire Line
@@ -3014,4 +3014,8 @@ F 3 "~" H 3385 7415 50  0001 C CNN
 	1    3385 7415
 	1    0    0    -1  
 $EndComp
+Text Label 5675 1835 2    50   ~ 0
+shift_a
+Text Label 5875 2235 2    50   ~ 0
+shift_b
 $EndSCHEMATC

@@ -2948,4 +2948,70 @@ Wire Wire Line
 	2250 6880 2250 6925
 Text Notes 8205 1225 2    50   ~ 0
 Note that the C16 does not\nhave power on the keyboard\nconnector! A bodge wire mod\nwill be needed!\nFor LittleSixteen, we'll add a\njumper in the next release.
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 68545552
+P 3385 7200
+F 0 "H4" H 3485 7246 50  0000 L CNN
+F 1 "MountingHole" H 3485 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 7200 50  0001 C CNN
+F 3 "~" H 3385 7200 50  0001 C CNN
+	1    3385 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 68546123
+P 3385 7000
+F 0 "H3" H 3485 7046 50  0000 L CNN
+F 1 "MountingHole" H 3485 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 7000 50  0001 C CNN
+F 3 "~" H 3385 7000 50  0001 C CNN
+	1    3385 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 685466B6
+P 3385 6785
+F 0 "H2" H 3485 6831 50  0000 L CNN
+F 1 "MountingHole" H 3485 6740 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 6785 50  0001 C CNN
+F 3 "~" H 3385 6785 50  0001 C CNN
+	1    3385 6785
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 68547692
+P 3385 6585
+F 0 "H1" H 3485 6631 50  0000 L CNN
+F 1 "MountingHole" H 3485 6540 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 6585 50  0001 C CNN
+F 3 "~" H 3385 6585 50  0001 C CNN
+	1    3385 6585
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 685F01A9
+P 3385 7615
+F 0 "H6" H 3485 7661 50  0000 L CNN
+F 1 "MountingHole" H 3485 7570 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 7615 50  0001 C CNN
+F 3 "~" H 3385 7615 50  0001 C CNN
+	1    3385 7615
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 685F119D
+P 3385 7415
+F 0 "H5" H 3485 7461 50  0000 L CNN
+F 1 "MountingHole" H 3485 7370 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3385 7415 50  0001 C CNN
+F 3 "~" H 3385 7415 50  0001 C CNN
+	1    3385 7415
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

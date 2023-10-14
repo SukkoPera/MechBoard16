@@ -2585,17 +2585,6 @@ F 3 "" H 8890 6160 50  0001 C CNN
 	1    8890 6160
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even JP2
-U 1 1 66C6616E
-P 10190 4615
-F 0 "JP2" H 10240 4932 50  0000 C CNN
-F 1 "JMP_SHIFTLOCK" H 10240 4841 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10190 4615 50  0001 C CNN
-F 3 "~" H 10190 4615 50  0001 C CNN
-	1    10190 4615
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9390 5435
 Wire Wire Line
 	8390 5635 8285 5635
@@ -2826,18 +2815,14 @@ Text Notes 8200 4120 0    50   ~ 0
 "MOMENTARY" TO "LATCHING" CIRCUIT\nFOR THE SHIFT LOCK KEY
 Text Notes 5405 6555 0    50   ~ 0
 SPARES
-Text Label 10810 4615 2    50   ~ 0
+Text Label 10795 4645 2    50   ~ 0
 shift_b
-Text Label 9705 4615 0    50   ~ 0
+Text Label 9790 4645 0    50   ~ 0
 shift_a
 Wire Wire Line
-	10490 4515 10585 4515
+	10475 4645 10795 4645
 Wire Wire Line
-	10585 4515 10585 4230
-Wire Wire Line
-	10490 4615 10810 4615
-Wire Wire Line
-	9990 4615 9705 4615
+	10075 4645 9790 4645
 Text Notes 8695 655  0    50   ~ 0
 COMPUTER CONNECTORS
 Text Notes 11120 3675 2    50   ~ 0
@@ -2891,17 +2876,7 @@ Wire Wire Line
 	7520 5235 7620 5235
 Connection ~ 7620 5235
 Wire Wire Line
-	9990 4715 9900 4715
-Wire Wire Line
-	9900 4715 9900 4845
-Wire Wire Line
-	9900 4845 10225 4845
-Wire Wire Line
 	10225 4845 10225 4935
-Wire Wire Line
-	10490 4715 10635 4715
-Wire Wire Line
-	10635 4715 10635 5620
 Wire Wire Line
 	10635 5620 10225 5620
 Wire Wire Line
@@ -2914,10 +2889,10 @@ Connection ~ 7075 5175
 Wire Wire Line
 	7520 5235 7520 4230
 Wire Wire Line
-	7520 4230 10585 4230
+	7520 4230 10325 4230
 Connection ~ 7520 5235
-Text Notes 10015 6035 0    50   ~ 0
-SET JP2 ACCORDING TO TYPE\nOF SW1C:7:\n- LATCHING: 1-3 + 2-4\n- MOMENTARY: 3-5 + 4-6
+Text Notes 10095 6035 0    50   ~ 0
+SET JP2/3 ACCORDING\nTO TYPE OF SW1C:7:\n- LATCHING: 1-2\n- MOMENTARY: 2-3
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6805F947
@@ -3018,4 +2993,40 @@ Text Label 5675 1835 2    50   ~ 0
 shift_a
 Text Label 5875 2235 2    50   ~ 0
 shift_b
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 68A0CA63
+P 10325 4645
+F 0 "JP2" V 10455 4790 50  0000 L CNN
+F 1 "JMP_SHIFTLOCK_A" V 10535 4795 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10325 4645 50  0001 C CNN
+F 3 "~" H 10325 4645 50  0001 C CNN
+	1    10325 4645
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10325 4845 10325 5060
+Wire Wire Line
+	10325 5060 10635 5060
+Wire Wire Line
+	10635 5060 10635 5620
+Wire Wire Line
+	10225 4445 10225 4370
+Wire Wire Line
+	10225 4370 9990 4370
+Wire Wire Line
+	9990 4370 9990 4515
+Wire Wire Line
+	10325 4445 10325 4230
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 68958908
+P 10225 4645
+F 0 "JP3" V 10360 4820 50  0000 L CNN
+F 1 "JMP_SHIFTLOCK_B" V 10435 4820 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10225 4645 50  0001 C CNN
+F 3 "~" H 10225 4645 50  0001 C CNN
+	1    10225 4645
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

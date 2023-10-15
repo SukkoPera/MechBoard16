@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP2040_Zero
+D RP2040 Zero module by Waveshare
+F DOCUMENTATION
+$ENDCMP
+#
+#End Doc Library

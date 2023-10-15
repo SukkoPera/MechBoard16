@@ -2474,45 +2474,45 @@ $EndComp
 $Comp
 L 4xxx:4066 U1
 U 2 1 66BEE6E1
-P 5505 7125
-F 0 "U1" H 5505 6952 50  0000 C CNN
-F 1 "4066" H 5505 6861 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5505 7125 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5505 7125 50  0001 C CNN
-	2    5505 7125
+P 5680 7260
+F 0 "U1" H 5680 7087 50  0000 C CNN
+F 1 "4066" H 5680 6996 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5680 7260 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5680 7260 50  0001 C CNN
+	2    5680 7260
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U1
 U 3 1 66BF02C2
-P 4680 7125
-F 0 "U1" H 4680 6952 50  0000 C CNN
-F 1 "4066" H 4680 6861 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4680 7125 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4680 7125 50  0001 C CNN
-	3    4680 7125
+P 4855 7260
+F 0 "U1" H 4855 7087 50  0000 C CNN
+F 1 "4066" H 4855 6996 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4855 7260 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4855 7260 50  0001 C CNN
+	3    4855 7260
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U1
 U 4 1 66BF1CF3
-P 6385 7125
-F 0 "U1" H 6385 6952 50  0000 C CNN
-F 1 "4066" H 6385 6861 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6385 7125 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6385 7125 50  0001 C CNN
-	4    6385 7125
+P 6560 7260
+F 0 "U1" H 6560 7087 50  0000 C CNN
+F 1 "4066" H 6560 6996 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6560 7260 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6560 7260 50  0001 C CNN
+	4    6560 7260
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U1
 U 5 1 66BF36B6
-P 1160 6670
-F 0 "U1" H 1390 6716 50  0000 L CNN
-F 1 "4066" H 1390 6625 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1160 6670 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 1160 6670 50  0001 C CNN
-	5    1160 6670
+P 6155 3440
+F 0 "U1" H 6385 3486 50  0000 L CNN
+F 1 "4066" H 6385 3395 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6155 3440 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6155 3440 50  0001 C CNN
+	5    6155 3440
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2529,12 +2529,12 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 66C21CE3
-P 2250 6680
-F 0 "C2" H 2365 6726 50  0000 L CNN
-F 1 "100n" H 2365 6635 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2288 6530 50  0001 C CNN
-F 3 "~" H 2250 6680 50  0001 C CNN
-	1    2250 6680
+P 7245 3450
+F 0 "C2" H 7360 3496 50  0000 L CNN
+F 1 "100n" H 7360 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7283 3300 50  0001 C CNN
+F 3 "~" H 7245 3450 50  0001 C CNN
+	1    7245 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2606,92 +2606,92 @@ F 3 "~" H 7920 5460 50  0001 C CNN
 	1    7920 5460
 	-1   0    0    1   
 $EndComp
-NoConn ~ 5205 7125
-NoConn ~ 5805 7125
+NoConn ~ 5380 7260
+NoConn ~ 5980 7260
 Wire Wire Line
-	4680 6825 4680 6715
+	4855 6960 4855 6850
 Wire Wire Line
-	4680 6715 5085 6715
+	4855 6850 5260 6850
 Wire Wire Line
-	5505 6715 5505 6825
-NoConn ~ 4980 7125
-NoConn ~ 4380 7125
+	5680 6850 5680 6960
+NoConn ~ 5155 7260
+NoConn ~ 4555 7260
 Wire Wire Line
-	5085 6715 5085 7335
-Connection ~ 5085 6715
+	5260 6850 5260 7470
+Connection ~ 5260 6850
 Wire Wire Line
-	5085 6715 5505 6715
+	5260 6850 5680 6850
 $Comp
 L power:GND #PWR0103
 U 1 1 66EB0AEA
-P 5085 7335
-F 0 "#PWR0103" H 5085 7085 50  0001 C CNN
-F 1 "GND" H 5090 7162 50  0000 C CNN
-F 2 "" H 5085 7335 50  0001 C CNN
-F 3 "" H 5085 7335 50  0001 C CNN
-	1    5085 7335
+P 5260 7470
+F 0 "#PWR0103" H 5260 7220 50  0001 C CNN
+F 1 "GND" H 5265 7297 50  0000 C CNN
+F 2 "" H 5260 7470 50  0001 C CNN
+F 3 "" H 5260 7470 50  0001 C CNN
+	1    5260 7470
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6085 7125
-NoConn ~ 6685 7125
+NoConn ~ 6260 7260
+NoConn ~ 6860 7260
 Wire Wire Line
-	5505 6715 6385 6715
+	5680 6850 6560 6850
 Wire Wire Line
-	6385 6715 6385 6825
-Connection ~ 5505 6715
+	6560 6850 6560 6960
+Connection ~ 5680 6850
 $Comp
 L Device:C C1
 U 1 1 66F5E32D
-P 1775 6680
-F 0 "C1" H 1890 6726 50  0000 L CNN
-F 1 "100n" H 1890 6635 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1813 6530 50  0001 C CNN
-F 3 "~" H 1775 6680 50  0001 C CNN
-	1    1775 6680
+P 6770 3450
+F 0 "C1" H 6885 3496 50  0000 L CNN
+F 1 "100n" H 6885 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6808 3300 50  0001 C CNN
+F 3 "~" H 6770 3450 50  0001 C CNN
+	1    6770 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1160 6170 1160 6110
+	6155 2940 6155 2880
 Wire Wire Line
-	1160 6110 1470 6110
+	6155 2880 6465 2880
 Wire Wire Line
-	1775 6110 1775 6530
+	6770 2880 6770 3300
 Wire Wire Line
-	1775 6830 1775 7295
+	6770 3600 6770 4065
 Wire Wire Line
-	1160 7295 1160 7170
+	6155 4065 6155 3940
 Wire Wire Line
-	1775 7295 1470 7295
+	6770 4065 6465 4065
 Wire Wire Line
-	1470 7295 1470 7390
-Connection ~ 1470 7295
+	6465 4065 6465 4160
+Connection ~ 6465 4065
 Wire Wire Line
-	1470 7295 1160 7295
+	6465 4065 6155 4065
 Wire Wire Line
-	1470 6110 1470 5985
-Connection ~ 1470 6110
+	6465 2880 6465 2755
+Connection ~ 6465 2880
 Wire Wire Line
-	1470 6110 1775 6110
+	6465 2880 6770 2880
 $Comp
 L power:GND #PWR0104
 U 1 1 67015259
-P 1470 7390
-F 0 "#PWR0104" H 1470 7140 50  0001 C CNN
-F 1 "GND" H 1475 7217 50  0000 C CNN
-F 2 "" H 1470 7390 50  0001 C CNN
-F 3 "" H 1470 7390 50  0001 C CNN
-	1    1470 7390
+P 6465 4160
+F 0 "#PWR0104" H 6465 3910 50  0001 C CNN
+F 1 "GND" H 6470 3987 50  0000 C CNN
+F 2 "" H 6465 4160 50  0001 C CNN
+F 3 "" H 6465 4160 50  0001 C CNN
+	1    6465 4160
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0105
 U 1 1 67015911
-P 1470 5985
-F 0 "#PWR0105" H 1470 5835 50  0001 C CNN
-F 1 "+5V" H 1485 6158 50  0000 C CNN
-F 2 "" H 1470 5985 50  0001 C CNN
-F 3 "" H 1470 5985 50  0001 C CNN
-	1    1470 5985
+P 6465 2755
+F 0 "#PWR0105" H 6465 2605 50  0001 C CNN
+F 1 "+5V" H 6480 2928 50  0000 C CNN
+F 2 "" H 6465 2755 50  0001 C CNN
+F 3 "" H 6465 2755 50  0001 C CNN
+	1    6465 2755
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2735,29 +2735,29 @@ Wire Wire Line
 Wire Wire Line
 	7620 5235 7920 5235
 Wire Wire Line
-	2250 6530 2250 6465
+	7245 3300 7245 3235
 $Comp
 L power:+5V #PWR0106
 U 1 1 67366AEE
-P 2250 6405
-F 0 "#PWR0106" H 2250 6255 50  0001 C CNN
-F 1 "+5V" H 2265 6578 50  0000 C CNN
-F 2 "" H 2250 6405 50  0001 C CNN
-F 3 "" H 2250 6405 50  0001 C CNN
-	1    2250 6405
+P 7245 3175
+F 0 "#PWR0106" H 7245 3025 50  0001 C CNN
+F 1 "+5V" H 7260 3348 50  0000 C CNN
+F 2 "" H 7245 3175 50  0001 C CNN
+F 3 "" H 7245 3175 50  0001 C CNN
+	1    7245 3175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 6830 2250 6880
+	7245 3600 7245 3650
 $Comp
 L power:GND #PWR0107
 U 1 1 6739223A
-P 2250 6925
-F 0 "#PWR0107" H 2250 6675 50  0001 C CNN
-F 1 "GND" H 2255 6752 50  0000 C CNN
-F 2 "" H 2250 6925 50  0001 C CNN
-F 3 "" H 2250 6925 50  0001 C CNN
-	1    2250 6925
+P 7245 3695
+F 0 "#PWR0107" H 7245 3445 50  0001 C CNN
+F 1 "GND" H 7250 3522 50  0000 C CNN
+F 2 "" H 7245 3695 50  0001 C CNN
+F 3 "" H 7245 3695 50  0001 C CNN
+	1    7245 3695
 	1    0    0    -1  
 $EndComp
 Connection ~ 7920 6070
@@ -2809,11 +2809,11 @@ Wire Wire Line
 	3675 1835 4175 1835
 Text Notes 6095 2230 0    50   ~ 0
 Both Shift keys and\nCaps Lock are in parallel\n(But we handle the latter\nseparately so that we can\nuse a non-latching switch)
-Text Notes 1595 5710 0    50   ~ 0
+Text Notes 6590 2480 0    50   ~ 0
 DECOUPLING
 Text Notes 8200 4120 0    50   ~ 0
 "MOMENTARY" TO "LATCHING" CIRCUIT\nFOR THE SHIFT LOCK KEY
-Text Notes 5405 6555 0    50   ~ 0
+Text Notes 5580 6690 0    50   ~ 0
 SPARES
 Text Label 10795 4645 2    50   ~ 0
 shift_b
@@ -2896,97 +2896,97 @@ SET JP2/3 ACCORDING\nTO TYPE OF SW1C:7:\n- LATCHING: 1-2\n- MOMENTARY: 2-3
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6805F947
-P 2250 6465
-F 0 "#FLG0101" H 2250 6540 50  0001 C CNN
-F 1 "PWR_FLAG" V 2250 6593 50  0000 L CNN
-F 2 "" H 2250 6465 50  0001 C CNN
-F 3 "~" H 2250 6465 50  0001 C CNN
-	1    2250 6465
+P 7245 3235
+F 0 "#FLG0101" H 7245 3310 50  0001 C CNN
+F 1 "PWR_FLAG" V 7245 3363 50  0000 L CNN
+F 2 "" H 7245 3235 50  0001 C CNN
+F 3 "~" H 7245 3235 50  0001 C CNN
+	1    7245 3235
 	0    1    1    0   
 $EndComp
-Connection ~ 2250 6465
+Connection ~ 7245 3235
 Wire Wire Line
-	2250 6465 2250 6405
+	7245 3235 7245 3175
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 680610F8
-P 2250 6880
-F 0 "#FLG0102" H 2250 6955 50  0001 C CNN
-F 1 "PWR_FLAG" V 2250 7008 50  0000 L CNN
-F 2 "" H 2250 6880 50  0001 C CNN
-F 3 "~" H 2250 6880 50  0001 C CNN
-	1    2250 6880
+P 7245 3650
+F 0 "#FLG0102" H 7245 3725 50  0001 C CNN
+F 1 "PWR_FLAG" V 7245 3778 50  0000 L CNN
+F 2 "" H 7245 3650 50  0001 C CNN
+F 3 "~" H 7245 3650 50  0001 C CNN
+	1    7245 3650
 	0    1    1    0   
 $EndComp
-Connection ~ 2250 6880
+Connection ~ 7245 3650
 Wire Wire Line
-	2250 6880 2250 6925
+	7245 3650 7245 3695
 Text Notes 8205 1225 2    50   ~ 0
 Note that the C16 does not\nhave power on the keyboard\nconnector! A bodge wire mod\nwill be needed!\nFor LittleSixteen, we'll add a\njumper in the next release.
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 68545552
-P 3385 7200
-F 0 "H4" H 3485 7246 50  0000 L CNN
-F 1 "MountingHole" H 3485 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 7200 50  0001 C CNN
-F 3 "~" H 3385 7200 50  0001 C CNN
-	1    3385 7200
+P 3730 7070
+F 0 "H4" H 3830 7116 50  0000 L CNN
+F 1 "MountingHole" H 3830 7025 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 7070 50  0001 C CNN
+F 3 "~" H 3730 7070 50  0001 C CNN
+	1    3730 7070
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 68546123
-P 3385 7000
-F 0 "H3" H 3485 7046 50  0000 L CNN
-F 1 "MountingHole" H 3485 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 7000 50  0001 C CNN
-F 3 "~" H 3385 7000 50  0001 C CNN
-	1    3385 7000
+P 3730 6870
+F 0 "H3" H 3830 6916 50  0000 L CNN
+F 1 "MountingHole" H 3830 6825 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 6870 50  0001 C CNN
+F 3 "~" H 3730 6870 50  0001 C CNN
+	1    3730 6870
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 685466B6
-P 3385 6785
-F 0 "H2" H 3485 6831 50  0000 L CNN
-F 1 "MountingHole" H 3485 6740 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 6785 50  0001 C CNN
-F 3 "~" H 3385 6785 50  0001 C CNN
-	1    3385 6785
+P 3730 6655
+F 0 "H2" H 3830 6701 50  0000 L CNN
+F 1 "MountingHole" H 3830 6610 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 6655 50  0001 C CNN
+F 3 "~" H 3730 6655 50  0001 C CNN
+	1    3730 6655
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 68547692
-P 3385 6585
-F 0 "H1" H 3485 6631 50  0000 L CNN
-F 1 "MountingHole" H 3485 6540 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 6585 50  0001 C CNN
-F 3 "~" H 3385 6585 50  0001 C CNN
-	1    3385 6585
+P 3730 6455
+F 0 "H1" H 3830 6501 50  0000 L CNN
+F 1 "MountingHole" H 3830 6410 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 6455 50  0001 C CNN
+F 3 "~" H 3730 6455 50  0001 C CNN
+	1    3730 6455
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 685F01A9
-P 3385 7615
-F 0 "H6" H 3485 7661 50  0000 L CNN
-F 1 "MountingHole" H 3485 7570 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 7615 50  0001 C CNN
-F 3 "~" H 3385 7615 50  0001 C CNN
-	1    3385 7615
+P 3730 7485
+F 0 "H6" H 3830 7531 50  0000 L CNN
+F 1 "MountingHole" H 3830 7440 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 7485 50  0001 C CNN
+F 3 "~" H 3730 7485 50  0001 C CNN
+	1    3730 7485
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 685F119D
-P 3385 7415
-F 0 "H5" H 3485 7461 50  0000 L CNN
-F 1 "MountingHole" H 3485 7370 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 3385 7415 50  0001 C CNN
-F 3 "~" H 3385 7415 50  0001 C CNN
-	1    3385 7415
+P 3730 7285
+F 0 "H5" H 3830 7331 50  0000 L CNN
+F 1 "MountingHole" H 3830 7240 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3730 7285 50  0001 C CNN
+F 3 "~" H 3730 7285 50  0001 C CNN
+	1    3730 7285
 	1    0    0    -1  
 $EndComp
 Text Label 5675 1835 2    50   ~ 0
@@ -3029,4 +3029,120 @@ F 3 "~" H 10225 4645 50  0001 C CNN
 	1    10225 4645
 	0    1    1    0   
 $EndComp
+$Comp
+L RP2040_Zero:RP2040_Zero U3
+U 1 1 68DDCE04
+P 1950 6455
+F 0 "U3" H 1950 7220 50  0000 C CNN
+F 1 "RP2040_Zero" H 1950 7129 50  0000 C CNN
+F 2 "Mechboard16:rp2040-zero" H 1950 6455 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1950 6455 50  0001 C CNN
+	1    1950 6455
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6055 850  6055
+Wire Wire Line
+	850  6055 850  5755
+Wire Wire Line
+	950  6155 850  6155
+Wire Wire Line
+	850  6155 850  7405
+$Comp
+L power:GND #PWR06
+U 1 1 68E3A75D
+P 850 7405
+F 0 "#PWR06" H 850 7155 50  0001 C CNN
+F 1 "GND" H 855 7232 50  0000 C CNN
+F 2 "" H 850 7405 50  0001 C CNN
+F 3 "" H 850 7405 50  0001 C CNN
+	1    850  7405
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 68E3AF82
+P 850 5755
+F 0 "#PWR05" H 850 5605 50  0001 C CNN
+F 1 "+5V" H 865 5928 50  0000 C CNN
+F 2 "" H 850 5755 50  0001 C CNN
+F 3 "" H 850 5755 50  0001 C CNN
+	1    850  5755
+	1    0    0    -1  
+$EndComp
+NoConn ~ 950  6255
+NoConn ~ 950  6355
+NoConn ~ 950  6455
+NoConn ~ 950  6555
+NoConn ~ 950  6655
+Wire Wire Line
+	2950 6055 3335 6055
+Wire Wire Line
+	2950 6155 3335 6155
+Wire Wire Line
+	2950 6255 3335 6255
+Wire Wire Line
+	2950 6355 3335 6355
+Wire Wire Line
+	2950 6455 3335 6455
+Wire Wire Line
+	2950 6555 3335 6555
+Wire Wire Line
+	2950 6655 3335 6655
+Wire Wire Line
+	2950 6755 3335 6755
+Wire Wire Line
+	2950 6855 3335 6855
+Wire Wire Line
+	565  6755 950  6755
+Wire Wire Line
+	565  6855 950  6855
+Wire Wire Line
+	1750 7740 1750 7355
+Wire Wire Line
+	1850 7740 1850 7355
+Wire Wire Line
+	1950 7740 1950 7355
+Wire Wire Line
+	2050 7740 2050 7355
+Wire Wire Line
+	2150 7740 2150 7355
+Text Label 3335 6055 2    50   ~ 0
+row0
+Text Label 3335 6155 2    50   ~ 0
+row1
+Text Label 3335 6255 2    50   ~ 0
+row2
+Text Label 3335 6355 2    50   ~ 0
+row3
+Text Label 3335 6455 2    50   ~ 0
+row4
+Text Label 3335 6555 2    50   ~ 0
+row5
+Text Label 3335 6655 2    50   ~ 0
+row6
+Text Label 3335 6755 2    50   ~ 0
+row7
+Text Label 3335 6855 2    50   ~ 0
+col0
+Text Label 2150 7740 1    50   ~ 0
+col1
+Text Label 2050 7740 1    50   ~ 0
+col2
+Text Label 1950 7740 1    50   ~ 0
+col3
+Text Label 1850 7740 1    50   ~ 0
+col4
+Text Label 1750 7740 1    50   ~ 0
+col5
+Text Label 565  6855 0    50   ~ 0
+col6
+Text Label 565  6755 0    50   ~ 0
+col7
+Text Notes 3825 6255 0    50   ~ 0
+MOUNTING\nHOLES
+Text Notes 1440 5610 0    50   ~ 0
+USB KEYBOARD CONTROLLER
+Text Notes 2275 7395 0    50   ~ 0
+NOTE: If U3 is mounted, do NOT \nconnect keyboard to computer\nvia CN1/2!
 $EndSCHEMATC

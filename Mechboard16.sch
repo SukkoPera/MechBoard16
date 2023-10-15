@@ -3029,17 +3029,6 @@ F 3 "~" H 10225 4645 50  0001 C CNN
 	1    10225 4645
 	0    1    1    0   
 $EndComp
-$Comp
-L RP2040_Zero:RP2040_Zero U3
-U 1 1 68DDCE04
-P 1950 6455
-F 0 "U3" H 1950 7220 50  0000 C CNN
-F 1 "RP2040_Zero" H 1950 7129 50  0000 C CNN
-F 2 "Mechboard16:rp2040-zero" H 1950 6455 50  0001 C CNN
-F 3 "DOCUMENTATION" H 1950 6455 50  0001 C CNN
-	1    1950 6455
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	950  6055 850  6055
 Wire Wire Line
@@ -3145,4 +3134,15 @@ Text Notes 1440 5610 0    50   ~ 0
 USB KEYBOARD CONTROLLER
 Text Notes 2275 7395 0    50   ~ 0
 NOTE: If U3 is mounted, do NOT \nconnect keyboard to computer\nvia CN1/2!
+$Comp
+L RP2040_Zero:RP2040_Zero U3
+U 1 1 68DDCE04
+P 1950 6455
+F 0 "U3" H 1950 7220 50  0000 C CNN
+F 1 "RP2040_Zero" H 1950 7129 50  0000 C CNN
+F 2 "Mechboard16:rp2040-zero" H 1950 6455 50  0001 C CNN
+F 3 "https://www.waveshare.com/wiki/RP2040-Zero" H 1950 6455 50  0001 C CNN
+	1    1950 6455
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

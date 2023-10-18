@@ -497,7 +497,7 @@ U 1 1 657B5993
 P 2275 5035
 F 0 "SW7:1" H 2355 5190 50  0000 C CNN
 F 1 "KEY_CLR" V 2095 5035 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 2275 5035 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u" H 2275 5035 50  0001 C CNN
 F 3 "~" H 2275 5035 50  0001 C CNN
 	1    2275 5035
 	1    0    0    -1  
@@ -3228,4 +3228,27 @@ F 3 "https://www.waveshare.com/wiki/RP2040-Zero" H 1950 6455 50  0001 C CNN
 	1    1950 6455
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push_45deg SW7B:2
+U 1 1 6971412A
+P 6200 980
+F 0 "SW7B:2" H 6275 1135 50  0000 C CIN
+F 1 "KEY_CTL_2" V 6020 980 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 6200 980 50  0001 C CNN
+F 3 "~" H 6200 980 50  0001 C CNN
+	1    6200 980 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 880  6100 775 
+Text Label 6100 775  0    50   ~ 0
+ctl_a
+Text Label 2675 4835 0    50   ~ 0
+ctl_a
+Text Label 2875 5235 1    50   ~ 0
+ctl_b
+Text Label 6515 1080 2    50   ~ 0
+ctl_b
+Wire Wire Line
+	6300 1080 6515 1080
 $EndSCHEMATC

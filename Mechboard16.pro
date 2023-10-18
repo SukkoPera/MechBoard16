@@ -1,4 +1,4 @@
-update=Sun 15 Oct 2023 22:51:26 CEST
+update=Mon 16 Oct 2023 18:34:44 CEST
 version=1
 last_client=kicad
 [general]
@@ -217,7 +217,7 @@ Enabled=1
 [pcbnew/Layer.Cmts.User]
 Enabled=0
 [pcbnew/Layer.Eco1.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Eco2.User]
 Enabled=0
 [pcbnew/Layer.Edge.Cuts]

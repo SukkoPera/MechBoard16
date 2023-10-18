@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mechboard16"
-Date "2023-10-13"
+Date "2023-10-18"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -778,7 +778,7 @@ U 1 1 657F68E7
 P 2775 5035
 F 0 "SW7:2" H 2855 5190 50  0000 C CNN
 F 1 "KEY_CTL" V 2595 5035 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 2775 5035 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 2775 5035 50  0001 C CNN
 F 3 "~" H 2775 5035 50  0001 C CNN
 	1    2775 5035
 	1    0    0    -1  
@@ -842,7 +842,7 @@ U 1 1 6580578A
 P 3275 1535
 F 0 "SW0:3" H 3350 1690 50  0000 C CNN
 F 1 "KEY_HLP" V 3095 1535 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 3275 1535 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 3275 1535 50  0001 C CNN
 F 3 "~" H 3275 1535 50  0001 C CNN
 	1    3275 1535
 	1    0    0    -1  
@@ -1100,7 +1100,7 @@ U 1 1 6581A489
 P 3775 1535
 F 0 "SW0:4" H 3850 1690 50  0000 C CNN
 F 1 "KEY_F1" V 3595 1535 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 3775 1535 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 3775 1535 50  0001 C CNN
 F 3 "~" H 3775 1535 50  0001 C CNN
 	1    3775 1535
 	1    0    0    -1  
@@ -1360,7 +1360,7 @@ U 1 1 65838F0C
 P 4275 1535
 F 0 "SW0:5" H 4350 1690 50  0000 C CNN
 F 1 "KEY_F2" V 4095 1535 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 4275 1535 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 4275 1535 50  0001 C CNN
 F 3 "~" H 4275 1535 50  0001 C CNN
 	1    4275 1535
 	1    0    0    -1  
@@ -1620,7 +1620,7 @@ U 1 1 6586B7F1
 P 4775 1535
 F 0 "SW0:6" H 4850 1690 50  0000 C CNN
 F 1 "KEY_F3" V 4595 1535 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 4775 1535 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 4775 1535 50  0001 C CNN
 F 3 "~" H 4775 1535 50  0001 C CNN
 	1    4775 1535
 	1    0    0    -1  
@@ -1927,7 +1927,7 @@ U 1 1 6589AEB0
 P 5275 2035
 F 0 "SW1:7" H 5355 2190 50  0000 C CNN
 F 1 "KEY_LSH" V 5095 2035 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 5275 2035 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 5275 2035 50  0001 C CNN
 F 3 "~" H 5275 2035 50  0001 C CNN
 	1    5275 2035
 	1    0    0    -1  
@@ -2498,7 +2498,7 @@ U 1 1 66835462
 P 5775 2035
 F 0 "SW1B:7" H 5855 2190 50  0000 C CNN
 F 1 "KEY_RSH" V 5595 2035 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 5775 2035 50  0001 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.00u_Oval" H 5775 2035 50  0001 C CNN
 F 3 "~" H 5775 2035 50  0001 C CNN
 	1    5775 2035
 	1    0    0    -1  
@@ -3231,24 +3231,177 @@ $EndComp
 $Comp
 L Switch:SW_Push_45deg SW7B:2
 U 1 1 6971412A
-P 6200 980
-F 0 "SW7B:2" H 6275 1135 50  0000 C CIN
-F 1 "KEY_CTL_2" V 6020 980 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 6200 980 50  0001 C CNN
-F 3 "~" H 6200 980 50  0001 C CNN
-	1    6200 980 
+P 12215 1025
+F 0 "SW7B:2" H 12290 1180 50  0000 C CIN
+F 1 "KEY_CTL_BIS" V 12035 1025 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 1025 50  0001 C CNN
+F 3 "~" H 12215 1025 50  0001 C CNN
+	1    12215 1025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 880  6100 775 
-Text Label 6100 775  0    50   ~ 0
-ctl_a
+	12115 925  12115 820 
 Text Label 2675 4835 0    50   ~ 0
 ctl_a
 Text Label 2875 5235 1    50   ~ 0
 ctl_b
-Text Label 6515 1080 2    50   ~ 0
-ctl_b
 Wire Wire Line
-	6300 1080 6515 1080
+	12315 1125 12530 1125
+$Comp
+L Switch:SW_Push_45deg SW1D:7
+U 1 1 69987E31
+P 12215 1570
+F 0 "SW1D:7" H 12290 1725 50  0000 C CIN
+F 1 "KEY_LSH_BIS" V 12035 1570 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 1570 50  0001 C CNN
+F 3 "~" H 12215 1570 50  0001 C CNN
+	1    12215 1570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 1470 12115 1365
+Text Label 12115 1365 0    50   ~ 0
+shift_a
+Text Label 12530 1670 2    50   ~ 0
+shift_b
+Wire Wire Line
+	12315 1670 12530 1670
+$Comp
+L Switch:SW_Push_45deg SW1E:7
+U 1 1 699BA5FA
+P 12215 2190
+F 0 "SW1E:7" H 12290 2345 50  0000 C CIN
+F 1 "KEY_RSH_BIS" V 12035 2190 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 2190 50  0001 C CNN
+F 3 "~" H 12215 2190 50  0001 C CNN
+	1    12215 2190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 2090 12115 1985
+Text Label 12115 1985 0    50   ~ 0
+shift_a
+Text Label 12530 2290 2    50   ~ 0
+shift_b
+Wire Wire Line
+	12315 2290 12530 2290
+$Comp
+L Switch:SW_Push_45deg SW7B:1
+U 1 1 699BB6C6
+P 12215 2735
+F 0 "SW7B:1" H 12290 2890 50  0000 C CIN
+F 1 "KEY_CLR_BIS" V 12035 2735 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u_Oval" H 12215 2735 50  0001 C CNN
+F 3 "~" H 12215 2735 50  0001 C CNN
+	1    12215 2735
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 2635 12115 2530
+Text Label 12115 2530 0    50   ~ 0
+clr_a
+Text Label 12530 2835 2    50   ~ 0
+clr_b
+Wire Wire Line
+	12315 2835 12530 2835
+Text Label 12530 1125 2    50   ~ 0
+ctl_b
+Text Label 12115 820  0    50   ~ 0
+ctl_a
+Text Label 2175 4835 0    50   ~ 0
+clr_a
+Text Label 2375 5235 1    50   ~ 0
+clr_b
+Text Label 3675 1335 0    50   ~ 0
+f1_a
+Text Label 3875 1735 1    50   ~ 0
+f1_b
+Text Label 4175 1335 0    50   ~ 0
+f2_a
+Text Label 4675 1335 0    50   ~ 0
+f3_a
+Text Label 4875 1735 1    50   ~ 0
+f3_b
+Text Label 4375 1735 1    50   ~ 0
+f2_b
+$Comp
+L Switch:SW_Push_45deg SW0B:4
+U 1 1 69B86B0D
+P 12215 3325
+F 0 "SW0B:4" H 12290 3480 50  0000 C CIN
+F 1 "KEY_F1_BIS" V 12035 3325 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 3325 50  0001 C CNN
+F 3 "~" H 12215 3325 50  0001 C CNN
+	1    12215 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 3225 12115 3120
+Text Label 12115 3120 0    50   ~ 0
+f1_a
+Text Label 12530 3425 2    50   ~ 0
+f1_b
+Wire Wire Line
+	12315 3425 12530 3425
+$Comp
+L Switch:SW_Push_45deg SW0B:5
+U 1 1 69B87C0D
+P 12215 3945
+F 0 "SW0B:5" H 12290 4100 50  0000 C CIN
+F 1 "KEY_F2_BIS" V 12035 3945 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 3945 50  0001 C CNN
+F 3 "~" H 12215 3945 50  0001 C CNN
+	1    12215 3945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 3845 12115 3740
+Text Label 12115 3740 0    50   ~ 0
+f2_a
+Text Label 12530 4045 2    50   ~ 0
+f2_b
+Wire Wire Line
+	12315 4045 12530 4045
+$Comp
+L Switch:SW_Push_45deg SW0B:6
+U 1 1 69B87C1B
+P 12215 4490
+F 0 "SW0B:6" H 12290 4645 50  0000 C CIN
+F 1 "KEY_F3_BIS" V 12035 4490 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 4490 50  0001 C CNN
+F 3 "~" H 12215 4490 50  0001 C CNN
+	1    12215 4490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 4390 12115 4285
+Text Label 12115 4285 0    50   ~ 0
+f3_a
+Text Label 12530 4590 2    50   ~ 0
+f3_b
+Wire Wire Line
+	12315 4590 12530 4590
+$Comp
+L Switch:SW_Push_45deg SW0B:3
+U 1 1 69BD489F
+P 12215 5070
+F 0 "SW0B:3" H 12290 5225 50  0000 C CIN
+F 1 "KEY_HELP_BIS" V 12035 5070 50  0000 C CNN
+F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 12215 5070 50  0001 C CNN
+F 3 "~" H 12215 5070 50  0001 C CNN
+	1    12215 5070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12115 4970 12115 4865
+Text Label 12115 4865 0    50   ~ 0
+help_a
+Text Label 12530 5170 2    50   ~ 0
+help_b
+Wire Wire Line
+	12315 5170 12530 5170
+Text Label 3175 1335 0    50   ~ 0
+help_a
+Text Label 3375 1735 1    50   ~ 0
+help_b
 $EndSCHEMATC

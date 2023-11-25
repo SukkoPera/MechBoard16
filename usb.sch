@@ -2614,8 +2614,18 @@ F 4 "C2297" H 13610 2335 50  0001 C CNN "LCSC"
 	1    13610 2335
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8070 4030 7580 4030
+Wire Wire Line
+	8070 4130 7580 4130
+Wire Wire Line
+	8070 4230 7580 4230
 Wire Bus Line
 	3930 2075 3930 2775
 Wire Bus Line
 	3930 3275 3930 3975
+Text Label 7580 4230 0    50   ~ 0
+mosi
+Text Label 7580 4130 0    50   ~ 0
+sck
 $EndSCHEMATC

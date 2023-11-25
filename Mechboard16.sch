@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Mechboard16"
-Date "2023-10-13"
+Date "2023-11-25"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -2696,10 +2696,10 @@ Connection ~ 5260 6850
 Wire Wire Line
 	5260 6850 5680 6850
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR06
 U 1 1 66EB0AEA
 P 5260 7470
-F 0 "#PWR0103" H 5260 7220 50  0001 C CNN
+F 0 "#PWR06" H 5260 7220 50  0001 C CNN
 F 1 "GND" H 5265 7297 50  0000 C CNN
 F 2 "" H 5260 7470 50  0001 C CNN
 F 3 "" H 5260 7470 50  0001 C CNN
@@ -2748,10 +2748,10 @@ Connection ~ 6465 2880
 Wire Wire Line
 	6465 2880 6770 2880
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR05
 U 1 1 67015259
 P 6465 4160
-F 0 "#PWR0104" H 6465 3910 50  0001 C CNN
+F 0 "#PWR05" H 6465 3910 50  0001 C CNN
 F 1 "GND" H 6470 3987 50  0000 C CNN
 F 2 "" H 6465 4160 50  0001 C CNN
 F 3 "" H 6465 4160 50  0001 C CNN
@@ -2822,8 +2822,6 @@ F 3 "" H 7245 3175 50  0001 C CNN
 	1    7245 3175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7245 3600 7245 3650
 $Comp
 L power:GND #PWR0107
 U 1 1 6739223A
@@ -2845,7 +2843,7 @@ L Device:LED LD1
 U 1 1 6726E132
 P 9670 5870
 F 0 "LD1" V 9709 5752 50  0000 R CNN
-F 1 "LED" V 9618 5752 50  0000 R CNN
+F 1 "LED_CLK" V 9618 5752 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" H 9670 5870 50  0001 C CNN
 F 3 "~" H 9670 5870 50  0001 C CNN
 	1    9670 5870
@@ -2984,20 +2982,6 @@ $EndComp
 Connection ~ 7245 3235
 Wire Wire Line
 	7245 3235 7245 3175
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 680610F8
-P 7245 3650
-F 0 "#FLG0102" H 7245 3725 50  0001 C CNN
-F 1 "PWR_FLAG" V 7245 3778 50  0000 L CNN
-F 2 "" H 7245 3650 50  0001 C CNN
-F 3 "~" H 7245 3650 50  0001 C CNN
-	1    7245 3650
-	0    1    1    0   
-$EndComp
-Connection ~ 7245 3650
-Wire Wire Line
-	7245 3650 7245 3695
 Text Notes 8205 1225 2    50   ~ 0
 Note that the C16 does not\nhave power on the keyboard\nconnector! A bodge wire mod\nwill be needed!\nFor LittleSixteen, we'll add a\njumper in the next release.
 $Comp
@@ -3112,143 +3096,128 @@ F 3 "~" H 10225 4645 50  0001 C CNN
 	1    10225 4645
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	950  6055 850  6055
-Wire Wire Line
-	850  6055 850  5755
-Wire Wire Line
-	950  6155 850  6155
-Wire Wire Line
-	850  6155 850  7405
-$Comp
-L power:GND #PWR06
-U 1 1 68E3A75D
-P 850 7405
-F 0 "#PWR06" H 850 7155 50  0001 C CNN
-F 1 "GND" H 855 7232 50  0000 C CNN
-F 2 "" H 850 7405 50  0001 C CNN
-F 3 "" H 850 7405 50  0001 C CNN
-	1    850  7405
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR05
-U 1 1 68E3AF82
-P 850 5755
-F 0 "#PWR05" H 850 5605 50  0001 C CNN
-F 1 "+5V" H 865 5928 50  0000 C CNN
-F 2 "" H 850 5755 50  0001 C CNN
-F 3 "" H 850 5755 50  0001 C CNN
-	1    850  5755
-	1    0    0    -1  
-$EndComp
-NoConn ~ 950  6255
-NoConn ~ 950  6355
-NoConn ~ 950  6455
-NoConn ~ 950  6555
-NoConn ~ 950  6655
-Wire Wire Line
-	2950 6055 3335 6055
-Wire Wire Line
-	2950 6155 3335 6155
-Wire Wire Line
-	2950 6255 3335 6255
-Wire Wire Line
-	2950 6355 3335 6355
-Wire Wire Line
-	2950 6455 3335 6455
-Wire Wire Line
-	2950 6555 3335 6555
-Wire Wire Line
-	2950 6655 3335 6655
-Wire Wire Line
-	2950 6755 3335 6755
-Wire Wire Line
-	2950 6855 3335 6855
-Wire Wire Line
-	565  6755 950  6755
-Wire Wire Line
-	565  6855 950  6855
-Wire Wire Line
-	1750 7740 1750 7355
-Wire Wire Line
-	1850 7740 1850 7355
-Wire Wire Line
-	1950 7740 1950 7355
-Wire Wire Line
-	2050 7740 2050 7355
-Wire Wire Line
-	2150 7740 2150 7355
-Text Label 3335 6055 2    50   ~ 0
-row0
-Text Label 3335 6155 2    50   ~ 0
-row1
-Text Label 3335 6255 2    50   ~ 0
-row2
-Text Label 3335 6355 2    50   ~ 0
-row3
-Text Label 3335 6455 2    50   ~ 0
-row4
-Text Label 3335 6555 2    50   ~ 0
-row5
-Text Label 3335 6655 2    50   ~ 0
-row6
-Text Label 3335 6755 2    50   ~ 0
-row7
-Text Label 3335 6855 2    50   ~ 0
-col0
-Text Label 2150 7740 1    50   ~ 0
-col1
-Text Label 2050 7740 1    50   ~ 0
-col2
-Text Label 1950 7740 1    50   ~ 0
-col3
-Text Label 1850 7740 1    50   ~ 0
-col4
-Text Label 1750 7740 1    50   ~ 0
-col5
-Text Label 565  6855 0    50   ~ 0
-col6
-Text Label 565  6755 0    50   ~ 0
-col7
 Text Notes 3825 6255 0    50   ~ 0
 MOUNTING\nHOLES
-Text Notes 1440 5610 0    50   ~ 0
-USB KEYBOARD CONTROLLER
-Text Notes 2275 7395 0    50   ~ 0
-NOTE: If U3 is mounted, do NOT \nconnect keyboard to computer\nvia CN1/2!
-$Comp
-L RP2040_Zero:RP2040_Zero U3
-U 1 1 68DDCE04
-P 1950 6455
-F 0 "U3" H 1950 7220 50  0000 C CNN
-F 1 "RP2040_Zero" H 1950 7129 50  0000 C CNN
-F 2 "Mechboard16:rp2040-zero" H 1950 6455 50  0001 C CNN
-F 3 "https://www.waveshare.com/wiki/RP2040-Zero" H 1950 6455 50  0001 C CNN
-	1    1950 6455
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_45deg SW7B:2
-U 1 1 6971412A
-P 6200 980
-F 0 "SW7B:2" H 6275 1135 50  0000 C CIN
-F 1 "KEY_CTL_2" V 6020 980 50  0000 C CNN
-F 2 "Mechboard16:SW_Cherry_MX_PCB_1.50u" H 6200 980 50  0001 C CNN
-F 3 "~" H 6200 980 50  0001 C CNN
-	1    6200 980 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 880  6100 775 
-Text Label 6100 775  0    50   ~ 0
-ctl_a
 Text Label 2675 4835 0    50   ~ 0
 ctl_a
 Text Label 2875 5235 1    50   ~ 0
 ctl_b
-Text Label 6515 1080 2    50   ~ 0
-ctl_b
+$Sheet
+S 1460 7125 955  490 
+U 656CF65E
+F0 "USB Controller" 50
+F1 "usb.sch" 50
+$EndSheet
+Text GLabel 2655 5975 2    50   Output ~ 0
+col[0..7]
+Wire Bus Line
+	2190 5975 2655 5975
+Entry Wire Line
+	2190 6805 2290 6905
+Entry Wire Line
+	2190 6705 2290 6805
+Entry Wire Line
+	2190 6605 2290 6705
+Entry Wire Line
+	2190 6505 2290 6605
+Entry Wire Line
+	2190 6405 2290 6505
+Entry Wire Line
+	2190 6305 2290 6405
+Entry Wire Line
+	2190 6205 2290 6305
+Entry Wire Line
+	2190 6105 2290 6205
+Text GLabel 1250 5975 0    50   BiDi ~ 0
+row[0..7]
+Wire Bus Line
+	1715 5975 1250 5975
+Entry Wire Line
+	1715 6805 1615 6905
+Entry Wire Line
+	1715 6705 1615 6805
+Entry Wire Line
+	1715 6605 1615 6705
+Entry Wire Line
+	1715 6505 1615 6605
+Entry Wire Line
+	1715 6405 1615 6505
+Entry Wire Line
+	1715 6305 1615 6405
+Entry Wire Line
+	1715 6205 1615 6305
+Entry Wire Line
+	1715 6105 1615 6205
+Text Notes 1440 5610 0    50   ~ 0
+USB KEYBOARD CONTROLLER
+Text Label 2675 6205 2    50   ~ 0
+col7
+Text Label 2675 6305 2    50   ~ 0
+col6
+Text Label 2675 6405 2    50   ~ 0
+col5
+Text Label 2675 6505 2    50   ~ 0
+col4
+Text Label 2675 6605 2    50   ~ 0
+col3
+Text Label 2675 6705 2    50   ~ 0
+col2
+Text Label 2675 6805 2    50   ~ 0
+col1
+Text Label 2675 6905 2    50   ~ 0
+col0
+Text Label 1230 6905 0    50   ~ 0
+row7
+Text Label 1230 6805 0    50   ~ 0
+row6
+Text Label 1230 6705 0    50   ~ 0
+row5
+Text Label 1230 6605 0    50   ~ 0
+row4
+Text Label 1230 6505 0    50   ~ 0
+row3
+Text Label 1230 6405 0    50   ~ 0
+row2
+Text Label 1230 6305 0    50   ~ 0
+row1
+Text Label 1230 6205 0    50   ~ 0
+row0
 Wire Wire Line
-	6300 1080 6515 1080
+	2675 6805 2290 6805
+Wire Wire Line
+	2675 6705 2290 6705
+Wire Wire Line
+	2675 6605 2290 6605
+Wire Wire Line
+	2675 6505 2290 6505
+Wire Wire Line
+	2675 6405 2290 6405
+Wire Wire Line
+	2675 6305 2290 6305
+Wire Wire Line
+	2675 6205 2290 6205
+Wire Wire Line
+	2290 6905 2675 6905
+Wire Wire Line
+	1615 6905 1230 6905
+Wire Wire Line
+	1615 6805 1230 6805
+Wire Wire Line
+	1615 6705 1230 6705
+Wire Wire Line
+	1615 6605 1230 6605
+Wire Wire Line
+	1615 6505 1230 6505
+Wire Wire Line
+	1615 6405 1230 6405
+Wire Wire Line
+	1615 6305 1230 6305
+Wire Wire Line
+	1615 6205 1230 6205
+Wire Wire Line
+	7245 3600 7245 3695
+Wire Bus Line
+	2190 5975 2190 6805
+Wire Bus Line
+	1715 5975 1715 6805
 $EndSCHEMATC

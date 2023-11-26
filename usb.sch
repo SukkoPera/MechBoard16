@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "Mechboard16"
-Date "2023-11-25"
+Date "2023-11-26"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -82,7 +82,7 @@ U 1 1 5E5D426B
 P 1445 2175
 F 0 "SW201" H 1445 2460 50  0000 C CNN
 F 1 "SW_RESET" H 1445 2369 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1445 2375 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVPBF" H 1445 2375 50  0001 C CNN
 F 3 "~" H 1445 2375 50  0001 C CNN
 F 4 "C410365" H 1445 2175 50  0001 C CNN "LCSC"
 	1    1445 2175
@@ -483,22 +483,6 @@ Wire Wire Line
 	14720 8270 14720 8125
 Connection ~ 14260 7680
 Connection ~ 14260 8270
-$Comp
-L Device:C C211
-U 1 1 5FBB40D6
-P 15175 7975
-F 0 "C211" H 15290 8021 50  0000 L CNN
-F 1 "100n" H 15290 7930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15213 7825 50  0001 C CNN
-F 3 "~" H 15175 7975 50  0001 C CNN
-F 4 "C49678" H 15175 7975 50  0001 C CNN "LCSC"
-	1    15175 7975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15175 7680 15175 7825
-Wire Wire Line
-	15175 8270 15175 8125
 Wire Wire Line
 	2610 5575 2660 5575
 Wire Wire Line
@@ -508,12 +492,6 @@ Wire Wire Line
 Connection ~ 2660 5575
 Wire Wire Line
 	2660 5575 2710 5575
-Connection ~ 14720 7680
-Wire Wire Line
-	14720 7680 15175 7680
-Connection ~ 14720 8270
-Wire Wire Line
-	14720 8270 15175 8270
 Text Notes 14275 7475 0    50   ~ 0
 DECOUPLING
 $Comp
@@ -622,10 +600,10 @@ Wire Notes Line
 Text Notes 2850 4410 0    50   ~ 0
 INT6
 $Comp
-L Device:Crystal_GND24 Y1
+L Device:Crystal_GND24 Y202
 U 1 1 613F6F1B
 P 1860 2480
-F 0 "Y1" V 1910 2625 50  0000 L CNN
+F 0 "Y202" V 1910 2625 50  0000 L CNN
 F 1 "16M" V 1860 2405 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1860 2480 50  0001 C CNN
 F 3 "~" H 1860 2480 50  0001 C CNN
@@ -794,9 +772,6 @@ Text Label 3830 3075 2    50   ~ 0
 ~mreset
 NoConn ~ 3310 4275
 NoConn ~ 3310 4375
-NoConn ~ 3310 4575
-NoConn ~ 3310 4675
-NoConn ~ 3310 4775
 NoConn ~ 3310 4875
 NoConn ~ 3310 4975
 NoConn ~ 3310 5075
@@ -2620,12 +2595,51 @@ Wire Wire Line
 	8070 4130 7580 4130
 Wire Wire Line
 	8070 4230 7580 4230
+Text Label 7580 4230 0    50   ~ 0
+soft_mosi
+Text Label 7580 4130 0    50   ~ 0
+soft_sck
+Wire Wire Line
+	3310 4575 3830 4575
+Text Label 3830 4575 2    50   ~ 0
+soft_mosi
+Wire Wire Line
+	3310 4675 3830 4675
+Wire Wire Line
+	3310 4775 3830 4775
+Text Label 3830 4675 2    50   ~ 0
+soft_sck
+Text Label 3830 4775 2    50   ~ 0
+soft_ss
+Text Label 7580 4030 0    50   ~ 0
+soft_ss
+$Comp
+L Device:Crystal Y201
+U 1 1 6701DCCD
+P 695 2480
+F 0 "Y201" V 649 2611 50  0000 L CNN
+F 1 "16M" V 740 2611 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 695 2480 50  0001 C CNN
+F 3 "~" H 695 2480 50  0001 C CNN
+	1    695  2480
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	695  2330 695  2275
+Wire Wire Line
+	695  2275 900  2275
+Wire Wire Line
+	695  2630 695  2695
+Wire Wire Line
+	695  2695 905  2695
+Text Label 900  2275 2    50   ~ 0
+xtal+
+Text Label 905  2695 2    50   ~ 0
+xtal-
+Text Notes 615  2825 0    50   ~ 0
+THT XTAL
 Wire Bus Line
 	3930 2075 3930 2775
 Wire Bus Line
 	3930 3275 3930 3975
-Text Label 7580 4230 0    50   ~ 0
-mosi
-Text Label 7580 4130 0    50   ~ 0
-sck
 $EndSCHEMATC

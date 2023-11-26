@@ -2601,15 +2601,15 @@ Text Label 7580 4130 0    50   ~ 0
 soft_sck
 Wire Wire Line
 	3310 4575 3830 4575
-Text Label 3830 4575 2    50   ~ 0
+Text Label 3830 4675 2    50   ~ 0
 soft_mosi
 Wire Wire Line
 	3310 4675 3830 4675
 Wire Wire Line
 	3310 4775 3830 4775
-Text Label 3830 4675 2    50   ~ 0
-soft_sck
 Text Label 3830 4775 2    50   ~ 0
+soft_sck
+Text Label 3830 4575 2    50   ~ 0
 soft_ss
 Text Label 7580 4030 0    50   ~ 0
 soft_ss

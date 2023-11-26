@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Mechboard16/Mechboard16.sch)
-    (date "Sun 26 Nov 2023 16:08:13 CET")
+    (date "Sun 26 Nov 2023 17:25:23 CET")
     (tool "Eeschema 5.1.12")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1443,7 +1443,7 @@
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65D43147))
     (comp (ref U202)
-      (value MAX7221xWG)
+      (value MAX7221)
       (footprint Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm)
       (datasheet https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf)
       (libsource (lib Driver_LED) (part MAX7221xWG) (description "Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W"))

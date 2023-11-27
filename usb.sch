@@ -767,12 +767,11 @@ Wire Bus Line
 Wire Wire Line
 	3310 3175 4575 3175
 Wire Wire Line
-	3310 3075 3830 3075
-Text Label 3830 3075 2    50   ~ 0
+	3310 4575 3830 4575
+Text Label 3830 4575 2    50   ~ 0
 ~mreset
 NoConn ~ 3310 4275
 NoConn ~ 3310 4375
-NoConn ~ 3310 4875
 NoConn ~ 3310 4975
 NoConn ~ 3310 5075
 $Comp
@@ -2600,16 +2599,16 @@ soft_mosi
 Text Label 7580 4130 0    50   ~ 0
 soft_sck
 Wire Wire Line
-	3310 4575 3830 4575
-Text Label 3830 4675 2    50   ~ 0
+	3310 4675 3830 4675
+Text Label 3830 4775 2    50   ~ 0
 soft_mosi
 Wire Wire Line
-	3310 4675 3830 4675
-Wire Wire Line
 	3310 4775 3830 4775
-Text Label 3830 4775 2    50   ~ 0
+Wire Wire Line
+	3310 4875 3830 4875
+Text Label 3830 4875 2    50   ~ 0
 soft_sck
-Text Label 3830 4575 2    50   ~ 0
+Text Label 3830 4675 2    50   ~ 0
 soft_ss
 Text Label 7580 4030 0    50   ~ 0
 soft_ss

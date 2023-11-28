@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Mechboard16/Mechboard16.sch)
-    (date "Tue 28 Nov 2023 00:12:59 CET")
+    (date "Tue 28 Nov 2023 01:05:13 CET")
     (tool "Eeschema 5.1.12")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1428,6 +1428,8 @@
       (value MAX7221)
       (footprint Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm)
       (datasheet https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf)
+      (fields
+        (field (name LCSC) C124668))
       (libsource (lib Driver_LED) (part MAX7221xWG) (description "Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65D721F9))
@@ -1972,7 +1974,7 @@
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F2332B))
     (comp (ref R207)
-      (value TBD)
+      (value 22k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
       (fields
@@ -2502,10 +2504,10 @@
       (node (ref J201) (pin 5))
       (node (ref C204) (pin 2))
       (node (ref C1) (pin 2))
-      (node (ref C211) (pin 2))
       (node (ref CN2) (pin 3))
       (node (ref U201) (pin 15))
       (node (ref SW201) (pin 1))
+      (node (ref C211) (pin 2))
       (node (ref C210) (pin 2))
       (node (ref U201) (pin 5))
       (node (ref LD1C:7) (pin 1))
@@ -2521,8 +2523,8 @@
     (net (code 2) (name "Net-(CN1-Pad2)")
       (node (ref CN1) (pin 2)))
     (net (code 3) (name row6)
-      (node (ref SW6:7) (pin 1))
       (node (ref U201) (pin 30))
+      (node (ref SW6:7) (pin 1))
       (node (ref SW6:1) (pin 1))
       (node (ref SW6:0) (pin 1))
       (node (ref SW6:2) (pin 1))

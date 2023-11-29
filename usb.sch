@@ -464,18 +464,6 @@ F 4 "" H 1565 3185 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C204
-U 1 1 5E637503
-P 1785 3770
-F 0 "C204" H 1900 3816 50  0000 L CNN
-F 1 "1u" H 1900 3725 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1823 3620 50  0001 C CNN
-F 3 "~" H 1785 3770 50  0001 C CNN
-F 4 "C1848" H 1785 3770 50  0001 C CNN "LCSC"
-	1    1785 3770
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C201
 U 1 1 5E68EA07
 P 1625 2330
@@ -2892,6 +2880,17 @@ F 4 "C20526" H 14130 2020 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 14195 2935 0    50   ~ 0
 Hack to light up several leds\nat a single matrix point\nThanks @Mattman944!
+$Comp
+L Device:CP1 C204
+U 1 1 66DA4E1C
+P 1785 3770
+F 0 "C204" H 1900 3816 50  0000 L CNN
+F 1 "1u" H 1900 3725 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1785 3770 50  0001 C CNN
+F 3 "~" H 1785 3770 50  0001 C CNN
+	1    1785 3770
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3930 2075 3930 2775
 Wire Bus Line

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Mechboard16"
-Date "2023-11-25"
+Date "2023-12-16"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -3216,8 +3216,32 @@ Wire Wire Line
 	1615 6205 1230 6205
 Wire Wire Line
 	7245 3600 7245 3695
+$Comp
+L void:Void ST1
+U 1 1 65942D2A
+P 5480 6015
+F 0 "ST1" H 5558 6061 50  0000 L CNN
+F 1 "STAB_RTN" H 5558 5970 50  0000 L CNN
+F 2 "Mechboard16:Stabilizer_Costar_2.00u" H 5480 6015 50  0001 C CNN
+F 3 "" H 5480 6015 50  0001 C CNN
+	1    5480 6015
+	1    0    0    -1  
+$EndComp
+$Comp
+L void:Void ST2
+U 1 1 65944191
+P 5480 6225
+F 0 "ST2" H 5558 6271 50  0000 L CNN
+F 1 "STAB_SPC" H 5558 6180 50  0000 L CNN
+F 2 "Mechboard16:Stabilizer_Costar_9.00u_Commodore" H 5480 6225 50  0001 C CNN
+F 3 "" H 5480 6225 50  0001 C CNN
+	1    5480 6225
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2190 5975 2190 6805
 Wire Bus Line
 	1715 5975 1715 6805
+Text Notes 5450 5820 0    50   ~ 0
+STABILIZERS
 $EndSCHEMATC

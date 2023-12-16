@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name RP2040_Zero)(type Legacy)(uri ${KIPRJMOD}/lib/RP2040_Zero.lib)(options "")(descr ""))
+  (lib (name void)(type Legacy)(uri ${KIPRJMOD}/lib/void.lib)(options "")(descr ""))
 )

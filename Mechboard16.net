@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Mechboard16/Mechboard16.sch)
-    (date "Sat 16 Dec 2023 19:59:18 CET")
+    (date "Sun 17 Dec 2023 15:35:18 CET")
     (tool "Eeschema 5.1.12")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

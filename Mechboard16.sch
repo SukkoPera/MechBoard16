@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Mechboard16"
-Date "2023-12-16"
+Date "2024-01-08"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -28,18 +28,6 @@ Text Label 820  1335 0    50   ~ 0
 row0
 Wire Wire Line
 	1675 1435 1675 1335
-$Comp
-L Device:D D0:0
-U 1 1 6575E82A
-P 1725 1735
-F 0 "D0:0" H 1725 1830 50  0000 C CNN
-F 1 "1n4148" H 1725 1861 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 1735 50  0001 C CNN
-F 3 "~" H 1725 1735 50  0001 C CNN
-F 4 "C2128" H 1725 1735 50  0001 C CNN "LCSC"
-	1    1725 1735
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1875 1735 1875 1635
 Wire Wire Line
@@ -76,7 +64,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 2235 50  0001 C CNN
 F 3 "~" H 1725 2235 50  0001 C CNN
 F 4 "C2128" H 1725 2235 50  0001 C CNN "LCSC"
 	1    1725 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 2235 1875 2135
@@ -123,7 +111,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 2735 50  0001 C CNN
 F 3 "~" H 1725 2735 50  0001 C CNN
 F 4 "C2128" H 1725 2735 50  0001 C CNN "LCSC"
 	1    1725 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 2735 1875 2635
@@ -152,7 +140,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 3235 50  0001 C CNN
 F 3 "~" H 1725 3235 50  0001 C CNN
 F 4 "C2128" H 1725 3235 50  0001 C CNN "LCSC"
 	1    1725 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 3235 1875 3135
@@ -181,7 +169,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 3735 50  0001 C CNN
 F 3 "~" H 1725 3735 50  0001 C CNN
 F 4 "C2128" H 1725 3735 50  0001 C CNN "LCSC"
 	1    1725 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 3735 1875 3635
@@ -199,7 +187,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 4235 50  0001 C CNN
 F 3 "~" H 1725 4235 50  0001 C CNN
 F 4 "C2128" H 1725 4235 50  0001 C CNN "LCSC"
 	1    1725 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 4235 1875 4135
@@ -228,7 +216,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 4735 50  0001 C CNN
 F 3 "~" H 1725 4735 50  0001 C CNN
 F 4 "C2128" H 1725 4735 50  0001 C CNN "LCSC"
 	1    1725 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 4735 1875 4635
@@ -257,7 +245,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 5235 50  0001 C CNN
 F 3 "~" H 1725 5235 50  0001 C CNN
 F 4 "C2128" H 1725 5235 50  0001 C CNN "LCSC"
 	1    1725 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1875 5235 1875 5135
@@ -319,7 +307,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 1735 50  0001 C CNN
 F 3 "~" H 2225 1735 50  0001 C CNN
 F 4 "C2128" H 2225 1735 50  0001 C CNN "LCSC"
 	1    2225 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 1735 2375 1635
@@ -349,7 +337,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 2235 50  0001 C CNN
 F 3 "~" H 2225 2235 50  0001 C CNN
 F 4 "C2128" H 2225 2235 50  0001 C CNN "LCSC"
 	1    2225 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 2235 2375 2135
@@ -380,7 +368,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 2735 50  0001 C CNN
 F 3 "~" H 2225 2735 50  0001 C CNN
 F 4 "C2128" H 2225 2735 50  0001 C CNN "LCSC"
 	1    2225 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 2735 2375 2635
@@ -409,7 +397,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 3235 50  0001 C CNN
 F 3 "~" H 2225 3235 50  0001 C CNN
 F 4 "C2128" H 2225 3235 50  0001 C CNN "LCSC"
 	1    2225 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 3235 2375 3135
@@ -438,7 +426,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 3735 50  0001 C CNN
 F 3 "~" H 2225 3735 50  0001 C CNN
 F 4 "C2128" H 2225 3735 50  0001 C CNN "LCSC"
 	1    2225 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 3735 2375 3635
@@ -456,7 +444,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 4235 50  0001 C CNN
 F 3 "~" H 2225 4235 50  0001 C CNN
 F 4 "C2128" H 2225 4235 50  0001 C CNN "LCSC"
 	1    2225 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 4235 2375 4135
@@ -485,7 +473,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 4735 50  0001 C CNN
 F 3 "~" H 2225 4735 50  0001 C CNN
 F 4 "C2128" H 2225 4735 50  0001 C CNN "LCSC"
 	1    2225 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 4735 2375 4635
@@ -514,7 +502,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2225 5235 50  0001 C CNN
 F 3 "~" H 2225 5235 50  0001 C CNN
 F 4 "C2128" H 2225 5235 50  0001 C CNN "LCSC"
 	1    2225 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2375 5235 2375 5135
@@ -600,7 +588,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 1735 50  0001 C CNN
 F 3 "~" H 2725 1735 50  0001 C CNN
 F 4 "C2128" H 2725 1735 50  0001 C CNN "LCSC"
 	1    2725 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 1735 2875 1635
@@ -630,7 +618,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 2235 50  0001 C CNN
 F 3 "~" H 2725 2235 50  0001 C CNN
 F 4 "C2128" H 2725 2235 50  0001 C CNN "LCSC"
 	1    2725 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 2235 2875 2135
@@ -661,7 +649,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 2735 50  0001 C CNN
 F 3 "~" H 2725 2735 50  0001 C CNN
 F 4 "C2128" H 2725 2735 50  0001 C CNN "LCSC"
 	1    2725 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 2735 2875 2635
@@ -690,7 +678,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 3235 50  0001 C CNN
 F 3 "~" H 2725 3235 50  0001 C CNN
 F 4 "C2128" H 2725 3235 50  0001 C CNN "LCSC"
 	1    2725 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 3235 2875 3135
@@ -719,7 +707,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 3735 50  0001 C CNN
 F 3 "~" H 2725 3735 50  0001 C CNN
 F 4 "C2128" H 2725 3735 50  0001 C CNN "LCSC"
 	1    2725 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 3735 2875 3635
@@ -737,7 +725,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 4235 50  0001 C CNN
 F 3 "~" H 2725 4235 50  0001 C CNN
 F 4 "C2128" H 2725 4235 50  0001 C CNN "LCSC"
 	1    2725 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 4235 2875 4135
@@ -766,7 +754,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 4735 50  0001 C CNN
 F 3 "~" H 2725 4735 50  0001 C CNN
 F 4 "C2128" H 2725 4735 50  0001 C CNN "LCSC"
 	1    2725 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 4735 2875 4635
@@ -795,7 +783,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2725 5235 50  0001 C CNN
 F 3 "~" H 2725 5235 50  0001 C CNN
 F 4 "C2128" H 2725 5235 50  0001 C CNN "LCSC"
 	1    2725 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2875 5235 2875 5135
@@ -857,7 +845,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 1735 50  0001 C CNN
 F 3 "~" H 3225 1735 50  0001 C CNN
 F 4 "C2128" H 3225 1735 50  0001 C CNN "LCSC"
 	1    3225 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 1735 3375 1635
@@ -887,7 +875,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 2235 50  0001 C CNN
 F 3 "~" H 3225 2235 50  0001 C CNN
 F 4 "C2128" H 3225 2235 50  0001 C CNN "LCSC"
 	1    3225 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 2235 3375 2135
@@ -918,7 +906,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 2735 50  0001 C CNN
 F 3 "~" H 3225 2735 50  0001 C CNN
 F 4 "C2128" H 3225 2735 50  0001 C CNN "LCSC"
 	1    3225 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 2735 3375 2635
@@ -947,7 +935,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 3235 50  0001 C CNN
 F 3 "~" H 3225 3235 50  0001 C CNN
 F 4 "C2128" H 3225 3235 50  0001 C CNN "LCSC"
 	1    3225 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 3235 3375 3135
@@ -976,7 +964,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 3735 50  0001 C CNN
 F 3 "~" H 3225 3735 50  0001 C CNN
 F 4 "C2128" H 3225 3735 50  0001 C CNN "LCSC"
 	1    3225 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 3735 3375 3635
@@ -994,7 +982,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 4235 50  0001 C CNN
 F 3 "~" H 3225 4235 50  0001 C CNN
 F 4 "C2128" H 3225 4235 50  0001 C CNN "LCSC"
 	1    3225 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 4235 3375 4135
@@ -1023,7 +1011,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 4735 50  0001 C CNN
 F 3 "~" H 3225 4735 50  0001 C CNN
 F 4 "C2128" H 3225 4735 50  0001 C CNN "LCSC"
 	1    3225 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 4735 3375 4635
@@ -1052,7 +1040,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3225 5235 50  0001 C CNN
 F 3 "~" H 3225 5235 50  0001 C CNN
 F 4 "C2128" H 3225 5235 50  0001 C CNN "LCSC"
 	1    3225 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3375 5235 3375 5135
@@ -1117,7 +1105,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 1735 50  0001 C CNN
 F 3 "~" H 3725 1735 50  0001 C CNN
 F 4 "C2128" H 3725 1735 50  0001 C CNN "LCSC"
 	1    3725 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 1735 3875 1635
@@ -1147,7 +1135,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 2235 50  0001 C CNN
 F 3 "~" H 3725 2235 50  0001 C CNN
 F 4 "C2128" H 3725 2235 50  0001 C CNN "LCSC"
 	1    3725 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 2235 3875 2135
@@ -1178,7 +1166,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 2735 50  0001 C CNN
 F 3 "~" H 3725 2735 50  0001 C CNN
 F 4 "C2128" H 3725 2735 50  0001 C CNN "LCSC"
 	1    3725 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 2735 3875 2635
@@ -1207,7 +1195,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 3235 50  0001 C CNN
 F 3 "~" H 3725 3235 50  0001 C CNN
 F 4 "C2128" H 3725 3235 50  0001 C CNN "LCSC"
 	1    3725 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 3235 3875 3135
@@ -1236,7 +1224,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 3735 50  0001 C CNN
 F 3 "~" H 3725 3735 50  0001 C CNN
 F 4 "C2128" H 3725 3735 50  0001 C CNN "LCSC"
 	1    3725 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 3735 3875 3635
@@ -1254,7 +1242,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 4235 50  0001 C CNN
 F 3 "~" H 3725 4235 50  0001 C CNN
 F 4 "C2128" H 3725 4235 50  0001 C CNN "LCSC"
 	1    3725 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 4235 3875 4135
@@ -1283,7 +1271,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 4735 50  0001 C CNN
 F 3 "~" H 3725 4735 50  0001 C CNN
 F 4 "C2128" H 3725 4735 50  0001 C CNN "LCSC"
 	1    3725 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 4735 3875 4635
@@ -1312,7 +1300,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3725 5235 50  0001 C CNN
 F 3 "~" H 3725 5235 50  0001 C CNN
 F 4 "C2128" H 3725 5235 50  0001 C CNN "LCSC"
 	1    3725 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3875 5235 3875 5135
@@ -1377,7 +1365,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 1735 50  0001 C CNN
 F 3 "~" H 4225 1735 50  0001 C CNN
 F 4 "C2128" H 4225 1735 50  0001 C CNN "LCSC"
 	1    4225 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 1735 4375 1635
@@ -1407,7 +1395,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 2235 50  0001 C CNN
 F 3 "~" H 4225 2235 50  0001 C CNN
 F 4 "C2128" H 4225 2235 50  0001 C CNN "LCSC"
 	1    4225 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 2235 4375 2135
@@ -1438,7 +1426,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 2735 50  0001 C CNN
 F 3 "~" H 4225 2735 50  0001 C CNN
 F 4 "C2128" H 4225 2735 50  0001 C CNN "LCSC"
 	1    4225 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 2735 4375 2635
@@ -1467,7 +1455,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 3235 50  0001 C CNN
 F 3 "~" H 4225 3235 50  0001 C CNN
 F 4 "C2128" H 4225 3235 50  0001 C CNN "LCSC"
 	1    4225 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 3235 4375 3135
@@ -1496,7 +1484,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 3735 50  0001 C CNN
 F 3 "~" H 4225 3735 50  0001 C CNN
 F 4 "C2128" H 4225 3735 50  0001 C CNN "LCSC"
 	1    4225 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 3735 4375 3635
@@ -1514,7 +1502,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 4235 50  0001 C CNN
 F 3 "~" H 4225 4235 50  0001 C CNN
 F 4 "C2128" H 4225 4235 50  0001 C CNN "LCSC"
 	1    4225 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 4235 4375 4135
@@ -1543,7 +1531,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 4735 50  0001 C CNN
 F 3 "~" H 4225 4735 50  0001 C CNN
 F 4 "C2128" H 4225 4735 50  0001 C CNN "LCSC"
 	1    4225 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 4735 4375 4635
@@ -1572,7 +1560,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4225 5235 50  0001 C CNN
 F 3 "~" H 4225 5235 50  0001 C CNN
 F 4 "C2128" H 4225 5235 50  0001 C CNN "LCSC"
 	1    4225 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4375 5235 4375 5135
@@ -1638,7 +1626,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 1735 50  0001 C CNN
 F 3 "~" H 4725 1735 50  0001 C CNN
 F 4 "C2128" H 4725 1735 50  0001 C CNN "LCSC"
 	1    4725 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 1735 4875 1635
@@ -1668,7 +1656,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 2235 50  0001 C CNN
 F 3 "~" H 4725 2235 50  0001 C CNN
 F 4 "C2128" H 4725 2235 50  0001 C CNN "LCSC"
 	1    4725 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 2235 4875 2135
@@ -1699,7 +1687,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 2735 50  0001 C CNN
 F 3 "~" H 4725 2735 50  0001 C CNN
 F 4 "C2128" H 4725 2735 50  0001 C CNN "LCSC"
 	1    4725 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 2735 4875 2635
@@ -1728,7 +1716,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 3235 50  0001 C CNN
 F 3 "~" H 4725 3235 50  0001 C CNN
 F 4 "C2128" H 4725 3235 50  0001 C CNN "LCSC"
 	1    4725 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 3235 4875 3135
@@ -1757,7 +1745,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 3735 50  0001 C CNN
 F 3 "~" H 4725 3735 50  0001 C CNN
 F 4 "C2128" H 4725 3735 50  0001 C CNN "LCSC"
 	1    4725 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 3735 4875 3635
@@ -1775,7 +1763,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 4235 50  0001 C CNN
 F 3 "~" H 4725 4235 50  0001 C CNN
 F 4 "C2128" H 4725 4235 50  0001 C CNN "LCSC"
 	1    4725 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 4235 4875 4135
@@ -1804,7 +1792,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 4735 50  0001 C CNN
 F 3 "~" H 4725 4735 50  0001 C CNN
 F 4 "C2128" H 4725 4735 50  0001 C CNN "LCSC"
 	1    4725 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 4735 4875 4635
@@ -1833,7 +1821,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4725 5235 50  0001 C CNN
 F 3 "~" H 4725 5235 50  0001 C CNN
 F 4 "C2128" H 4725 5235 50  0001 C CNN "LCSC"
 	1    4725 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4875 5235 4875 5135
@@ -1914,7 +1902,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 1735 50  0001 C CNN
 F 3 "~" H 5225 1735 50  0001 C CNN
 F 4 "C2128" H 5225 1735 50  0001 C CNN "LCSC"
 	1    5225 1735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 1735 5375 1635
@@ -1944,7 +1932,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 2235 50  0001 C CNN
 F 3 "~" H 5225 2235 50  0001 C CNN
 F 4 "C2128" H 5225 2235 50  0001 C CNN "LCSC"
 	1    5225 2235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 2235 5375 2135
@@ -1974,7 +1962,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 2735 50  0001 C CNN
 F 3 "~" H 5225 2735 50  0001 C CNN
 F 4 "C2128" H 5225 2735 50  0001 C CNN "LCSC"
 	1    5225 2735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 2735 5375 2635
@@ -2003,7 +1991,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 3235 50  0001 C CNN
 F 3 "~" H 5225 3235 50  0001 C CNN
 F 4 "C2128" H 5225 3235 50  0001 C CNN "LCSC"
 	1    5225 3235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 3235 5375 3135
@@ -2032,7 +2020,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 3735 50  0001 C CNN
 F 3 "~" H 5225 3735 50  0001 C CNN
 F 4 "C2128" H 5225 3735 50  0001 C CNN "LCSC"
 	1    5225 3735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 3735 5375 3635
@@ -2050,7 +2038,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 4235 50  0001 C CNN
 F 3 "~" H 5225 4235 50  0001 C CNN
 F 4 "C2128" H 5225 4235 50  0001 C CNN "LCSC"
 	1    5225 4235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 4235 5375 4135
@@ -2079,7 +2067,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 4735 50  0001 C CNN
 F 3 "~" H 5225 4735 50  0001 C CNN
 F 4 "C2128" H 5225 4735 50  0001 C CNN "LCSC"
 	1    5225 4735
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 4735 5375 4635
@@ -2108,7 +2096,7 @@ F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5225 5235 50  0001 C CNN
 F 3 "~" H 5225 5235 50  0001 C CNN
 F 4 "C2128" H 5225 5235 50  0001 C CNN "LCSC"
 	1    5225 5235
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5375 5235 5375 5135
@@ -3238,10 +3226,22 @@ F 3 "" H 5480 6225 50  0001 C CNN
 	1    5480 6225
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	2190 5975 2190 6805
-Wire Bus Line
-	1715 5975 1715 6805
 Text Notes 5450 5820 0    50   ~ 0
 STABILIZERS
+$Comp
+L Device:D D0:0
+U 1 1 6575E82A
+P 1725 1735
+F 0 "D0:0" H 1725 1830 50  0000 C CNN
+F 1 "1n4148" H 1725 1861 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1725 1735 50  0001 C CNN
+F 3 "~" H 1725 1735 50  0001 C CNN
+F 4 "C2128" H 1725 1735 50  0001 C CNN "LCSC"
+	1    1725 1735
+	-1   0    0    -1  
+$EndComp
+Wire Bus Line
+	1715 5975 1715 6805
+Wire Bus Line
+	2190 5975 2190 6805
 $EndSCHEMATC

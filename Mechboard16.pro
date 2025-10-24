@@ -1,4 +1,4 @@
-update=Sat 14 Oct 2023 15:12:46 CEST
+update=Sun 26 Nov 2023 17:03:14 CET
 version=1
 last_client=kicad
 [general]
@@ -213,11 +213,11 @@ Enabled=1
 [pcbnew/Layer.F.Mask]
 Enabled=1
 [pcbnew/Layer.Dwgs.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Cmts.User]
 Enabled=0
 [pcbnew/Layer.Eco1.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Eco2.User]
 Enabled=0
 [pcbnew/Layer.Edge.Cuts]
@@ -229,7 +229,7 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]

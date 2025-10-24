@@ -22,29 +22,32 @@ The MechBoard64 PCB was designed in a non-open format, so I redid it all in KiCa
 - I added a diode for every key. In theory, this allows for every key to be read properly, without *ghosting* issues. Still, the KERNAL applies a *blocking* algorithm so, in practice, nothing will change in this regard.
 - BUT I also added a microcontroller with USB capabilities (ATmega32U4) and connected it to all the keyboard rows and columns. This mean the whole thing can be a *N-Key Rollover* USB keyboard, which will probably be useful for those people who want to use it with emulators. And keep in mind that since you have full control on the software, it can also appear as a VIC-20/C64 keyboard over USB!
 - MechBoard64 has a version with LEDs, but all LEDs are driven in parallel, resulting in a huge current draw. I don't particularly care about LEDs but I decided to throw them in while I was at it, and since I would have a microcontroller onboard anyway, I decided to drive them through a MAX7219/7221 chip: this allows for individual LED control, much reduced power draw (the LEDs are multiplexed), brightness control and maximum brightness setting through a single resistor.
+- I have slightly revised the Shift Lock circuit: this is necessary because latching key switches are uncommon, so one cannot be found, the behavior of the original key must be achieved through electronics. Make sure to set the JP2 and JP3 jumpers according to whether you managed to find a real latching key switch or you are using an ordinary (= momentary) one.
 
 I realize not everyone might be interested in the above and in fact **it is all optional**! If you are not interested in USB and/or LEDs, just mount the key switches and bridge every diode (yes, this is annoying, sorry), ignoring all the extra components: basic keyboard functionality will still be there.
 
 The PCB is what this GitHub project is all about and let me reinstate that it's only component that you need to change to make a MechBoard64 work on a C16. If you are already familiar with it, just grab the new PCB and go ahead with the build!
 
-SHIFT LOCK TBD
+### Firmware
+If you have installed the ATmega32U4 microcontroller, you will need to flash some firmware on it: this is available [in a separate repository](https://github.com/SukkoPera/Mechware16) and is based on the Arduino platform, so you will need the [Arduino software](https://www.arduino.cc/en/software/) to flash it. I used legacy version 1.8.19 so I can only guarantee that that one works, if you use a newer one or the web-based IDE you are on your own.
+
+You will need to install the bootloader first. For this you will need an ICSP programmer, which you can buy cheaply on AliExpress or similar sites. The ICSP connector is marked as J202 on the board. Select the _Arduino Micro_ board in the IDE and proceed as normal. Once that is done, the firmware can be flashed through USB connector J201 as if the whole thing were a normal Arduino Micro board. Make sure to install the dependencies first.
 
 ### Metal Bracket
 The board will need to be fastened to the top part of the case somehow, and this is done through a **metal bracket** which doubles as a keyboard plate.
 
-I have designed my own bracket (coming soon...) but since I strived to maintain the same position for all of the key and screw holes, you should be able to use this board with the plate that was designed for the MechBoard64: you can get it through a Chinese company as MtnBuffalo recommends or ask other manufacturers.
+I have designed [my own bracket](https://github.com/SukkoPera/MechPlate16) based on MtnBuffalo's instructions, but since I strived to maintain the same position for all of the key and screw holes, you should be able to use this board with the plate that was designed for the MechBoard64: you can get it through a Chinese company as MtnBuffalo recommends or ask other manufacturers.
 
 ### Screws
-To fasten the two things together, you will need **screws**: MtnBuffalo recommends *six plastic M3 x 10 mm screws, six plastic M3 bolts and six plastic M3 x 3mm spacers (ø=6 mm)*. I used *metal* screws of the same dimensions and plastic spacers with an outside diameter of 5 mm.
+To fasten the two things together, you will need **screws**: MtnBuffalo recommends *six plastic M3 x 10 mm screws, six plastic M3 bolts and six plastic M3 x 3mm spacers (ø=6 mm)*. I used *metal* screws of the same dimensions and plastic spacers with an outside diameter of 5 mm, putting some insulation tape on the washers in order to avoid them shorting tracks on the PCB.
 
 ### Key Switches
 At this point you will have a nice keyboard prototype without keys, so you will need to solder exactly 66 **key switches** into it. This is the point where your customization options start: MtnBuffalo used *Gateron Yellow* switches as he thought they yield a very similar experience to the original keys. Personally, I don't think we should necessarily aim at replicating the original experience, so I'd recommend feeling free to use different switches.
 
-While the keyboard was designed for Cherry MX keyswitches, these days maaaany manufacturers make compatible ones: I think the most respected alternative manufacturers are <a href="https://www.gateron.com">Gateron</a> and <a href="https://www.kailh.net">Kailh</a>. *Durock* is another well-known brand and, even though I don't think it's a particularly smart idea to save 10€ on a project that will cost you around 100€ anyway, there are also cheaper options: *Outemu* is a Chinese brand that seems to have its fans, while *Redragon* is the cheapest I could find (less than 10€ for 150 keyswitches - more than enough for 2 keyboard - shipped to Europe!) and their Black switches look definitely better to me, than what the price would suggest.
+While the keyboard was designed for Cherry MX keyswitches, these days maaaany manufacturers make compatible ones: I think the most respected alternative manufacturers are <a href="https://www.gateron.com">Gateron</a> and <a href="https://www.kailh.net">Kailh</a>. *Durock* is another well-known brand and, even though I don't think it's a particularly smart idea to save 10€ on a project that will cost you around 100€ anyway, there are also cheaper options: *Outemu* is a Chinese brand that seems to have its fans, while *Redragon* is the cheapest I could find (less than 10€ for 150 keyswitches - more than enough for 2 keyboard - shipped to Europe!) and their Red switches look definitely better to me, than what the price would suggest.
 
 Here are a few links to online shops where you can find an ample offering of key switches:
 - [Keychron](https://www.keychron.com)
-- [MyKeyboard](https://mykeyboard.eu)
 - [CannonKeys](https://cannonkeys.com/collections/switches)
 
 Even by just skimming through these shops, it is easy to get lost for those like me who might not be too much into keyboards, so here's some help: first of all, you need *standard/normal profile* switches, don't get *low profile* ones.
@@ -90,7 +93,7 @@ If you want LEDs, you can solder one per each key. The required diameter is 3 mm
 
 Remember to tune R207 according to the LEDs you choose and brightness you like.
 
-To tune the brightness to your liking, you first need to change R207 according to table 11 of the [MAX7219/7221 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf). This will set the brightness of the LEDs of all keys except <kbd>SHIFT</kbd>, <kbd>SHIFT LOCK</kbd> and <kbd>SPACE</kbd>.
+To tune the brightness to your liking, you first need to change R207 according to table 11 of the [MAX7219/7221 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf). This will set the maximum brightness of the LEDs of all keys except <kbd>SHIFT</kbd>, <kbd>SHIFT LOCK</kbd> and <kbd>SPACE</kbd>. The actual brightness can be fine-tuned through some hotkeys (see below).
 
 Due to its length, the spacebar has 3 LEDs which are linked together: they are all either ON or OFF at any given moment. The same goes for the LEDs for the two <kbd>SHIFT</kbd> keys. The brightness for these is controlled by resistors R208, 209, 210, 211 and 212. These can all be set to the same value, which you should calculate depending on the Vf of the LEDs you are using and the current you set with R207, so that these LEDs have the same brightness as the other ones.
 
@@ -99,14 +102,25 @@ The LED for the <kbd>SHIFT LOCK</kbd> key only lights up when the lock is enable
 Since I was tired of having to disconnect both the keyboard and the case LED every time I had to open the machine, I added a connector so that the case LED can be connected to the keyboard board, namely R204, black wire goes to GND. You can even replace the built-in LED with an RGB one and set it to your favourite color by picking appropriate values for R204/205/206 (for R/G/B respectively). This LED can also be controlled by the software running on the microcontroller, so maybe it could be used for signalling some events. Note that the R204 will not do anything if the ATmega32U4 microcontroller is not mounted.
 
 ### HotKeys
-TBD
+The firmware supports some hotkeys, all triggered by pressing <kbd>CTRL</kbd> + <kbd>C=</kbd> + a third key, as follows:
+- <kbd>F1</kbd>: Turn all LEDs permanently OFF.
+- <kbd>F2</kbd>: Turn all LEDs permanently ON.
+- <kbd>F3</kbd>: Turn all LEDS OFF, but turn ON those corresponding to the keys that are being pressed.
+- <kbd>F4</kbd>: Turn all LEDS ON, but turn OFF those corresponding to the keys that are being pressed.
+- <kbd>1</kbd>: Set startup animation to *Chasing*.
+- <kbd>2</kbd>: Set startup animation to *Scrolling Column*.
+- <kbd>+</kbd>: Increase LED brightness.
+- <kbd>-</kbd>: Decrease LED brightness.
 
 ## Mainboard Modification
 Unfortunately a stock C16 does not feature any power pins on the keyboard connector, therefore a small modification must be made on the mainboard: just solder a wire on the back of the board as in [this picture](TBD). Make sure it doesn't touch the nearby pins.
 
 Note that this could be made even easier as the large track below the keyboard connector on the board is +5V, but you would need to scrape away some insulation and I like fully reversible mods anyway.
 
-If you are using a LittleSixteen board, this modification is not necessary since V4.
+If you are using a LittleSixteen board, this modification is not necessary since V4, just short the JP1 solder jumper.
 
 ## Disclaimer
 **NOTE: I am in no way endorsed by any of the above-mentioned companies, shops or websites. I am only suggesting them for practical needs and to save you time.**
+
+## Thanks
+- MtnBuffalo for designing the original MechBoard64, making it open and being always happy to help.

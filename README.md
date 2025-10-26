@@ -113,7 +113,7 @@ The firmware supports some hotkeys, all triggered by pressing <kbd>CTRL</kbd> + 
 - <kbd>-</kbd>: Decrease LED brightness.
 
 ## Mainboard Modification
-Unfortunately a stock C16 does not feature any power pins on the keyboard connector, therefore a small modification must be made on the mainboard: just solder a wire on the back of the board as in [this picture](TBD). Make sure it doesn't touch the nearby pins.
+Unfortunately a stock C16 does not feature any power pins on the keyboard connector, therefore a small modification must be made on the mainboard: just solder a wire on the back of the board as in [this picture](img/mech_power_photo.jpg). Make sure it doesn't touch the nearby pins.
 
 Note that this could be made even easier as the large track below the keyboard connector on the board is +5V, but you would need to scrape away some insulation and I like fully reversible mods anyway.
 

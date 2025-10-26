@@ -1,4 +1,9 @@
 # MechBoard16
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/SukkoPera/MechBoard16)
+![GitHub Release Date](https://img.shields.io/github/release-date/SukkoPera/MechBoard16?color=blue&label=last%20release)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/SukkoPera/MechBoard16/latest?color=orange)
+
 MechBoard16 is a mechanical keyboard for the Commodore 16.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/MechBoard16/master/img/render-top.png)

@@ -11,7 +11,7 @@ Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
 Comment2 "https://github.com/SukkoPera/MechBoard16"
 Comment3 "Heavily inspired by MechBoard64 by MtnBuffalo"
-Comment4 "https://www.breadbox64.com/blog/the-mechboard64/"
+Comment4 "Licensed under CC BY-NC-SA 4.0"
 $EndDescr
 $Comp
 L Switch:SW_Push_45deg SW0:0

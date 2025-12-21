@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "Mechboard16"
-Date "2023-11-28"
+Date "2025-12-21"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -715,7 +715,6 @@ Wire Wire Line
 	3310 3075 3830 3075
 Text Label 3830 3075 2    50   ~ 0
 ~mreset
-NoConn ~ 3310 4275
 NoConn ~ 3310 4375
 $Comp
 L power:+5V #PWR0201
@@ -2587,7 +2586,6 @@ F 4 "C17513" H 4160 4675 50  0001 C CNN "LCSC"
 	1    4160 4675
 	0    1    -1   0   
 $EndComp
-NoConn ~ 3310 3175
 Text Label 3830 4775 2    50   ~ 0
 st_le_b
 Text Label 3830 4575 2    50   ~ 0
@@ -2891,8 +2889,18 @@ F 3 "~" H 1785 3770 50  0001 C CNN
 	1    1785 3770
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3310 4275 3830 4275
+Text Label 3830 4275 2    50   ~ 0
+soft_i2c_sda
+Wire Wire Line
+	3310 3175 3830 3175
+NoConn ~ 3830 4275
+NoConn ~ 3830 3175
 Wire Bus Line
 	3930 2075 3930 2775
 Wire Bus Line
 	3930 3275 3930 3975
+Text Label 3830 3175 2    50   ~ 0
+soft_i2c_scl
 $EndSCHEMATC

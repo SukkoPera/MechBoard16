@@ -1059,17 +1059,6 @@ Wire Wire Line
 	2975 3235 2975 3735
 Wire Wire Line
 	2975 2735 2975 3235
-$Comp
-L Switch:SW_Push_45deg SW0:4
-U 1 1 6581A489
-P 3775 1535
-F 0 "SW0:4" H 3705 1390 50  0000 C CNN
-F 1 "KEY_F1" V 3950 1560 50  0000 C CNN
-F 2 "Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL" H 3775 1535 50  0001 C CNN
-F 3 "~" H 3775 1535 50  0001 C CNN
-	1    3775 1535
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3675 1435 3675 1335
 $Comp
@@ -1323,12 +1312,12 @@ $Comp
 L Switch:SW_Push_45deg SW0:5
 U 1 1 65838F0C
 P 4275 1535
-F 0 "SW0:5" H 4220 1390 50  0000 C CNN
-F 1 "KEY_F2" V 4455 1570 50  0000 C CNN
+F 0 "SW0:5" H 4350 1685 50  0000 C CNN
+F 1 "KEY_F2" V 4100 1520 50  0000 C CNN
 F 2 "Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL" H 4275 1535 50  0001 C CNN
 F 3 "~" H 4275 1535 50  0001 C CNN
 	1    4275 1535
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4175 1435 4175 1335
@@ -1583,12 +1572,12 @@ $Comp
 L Switch:SW_Push_45deg SW0:6
 U 1 1 6586B7F1
 P 4775 1535
-F 0 "SW0:6" H 4700 1390 50  0000 C CNN
-F 1 "KEY_F3" V 4950 1560 50  0000 C CNN
+F 0 "SW0:6" H 4850 1685 50  0000 C CNN
+F 1 "KEY_F3" V 4600 1520 50  0000 C CNN
 F 2 "Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL" H 4775 1535 50  0001 C CNN
 F 3 "~" H 4775 1535 50  0001 C CNN
 	1    4775 1535
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4675 1435 4675 1335
@@ -3221,12 +3210,12 @@ $Comp
 L Switch:SW_Push_45deg SW0:3
 U 1 1 6580578A
 P 3275 1535
-F 0 "SW0:3" H 3195 1390 50  0000 C CNN
-F 1 "KEY_HLP" V 3445 1545 50  0000 C CNN
+F 0 "SW0:3" H 3350 1685 50  0000 C CNN
+F 1 "KEY_HLP" V 3100 1535 50  0000 C CNN
 F 2 "Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL" H 3275 1535 50  0001 C CNN
 F 3 "~" H 3275 1535 50  0001 C CNN
 	1    3275 1535
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D0:3
@@ -3246,4 +3235,15 @@ Wire Bus Line
 	1715 5975 1715 6805
 Wire Bus Line
 	2190 5975 2190 6805
+$Comp
+L Switch:SW_Push_45deg SW0:4
+U 1 1 6581A489
+P 3775 1535
+F 0 "SW0:4" H 3855 1685 50  0000 C CNN
+F 1 "KEY_F1" V 3600 1510 50  0000 C CNN
+F 2 "Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL" H 3775 1535 50  0001 C CNN
+F 3 "~" H 3775 1535 50  0001 C CNN
+	1    3775 1535
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

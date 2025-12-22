@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Mechboard16"
-Date "2024-01-08"
+Date "2025-12-22"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Mechanical replacement keyboard for the Commodore 16"
@@ -2309,8 +2309,6 @@ F 3 "" H 8685 3160 50  0001 C CNN
 	1    8685 3160
 	1    0    0    -1  
 $EndComp
-Text Label 8410 1680 0    50   ~ 0
-row7
 Text Label 8410 1780 0    50   ~ 0
 col4
 Text Label 8410 1880 0    50   ~ 0
@@ -2338,23 +2336,8 @@ col0
 Text Label 8410 2980 0    50   ~ 0
 row0
 NoConn ~ 8805 3080
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 666B3C47
-P 8310 1355
-F 0 "JP1" V 8356 1430 50  0000 L CNN
-F 1 "JMP_VCC" V 8265 1430 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8310 1355 50  0001 C CNN
-F 3 "~" H 8310 1355 50  0001 C CNN
-	1    8310 1355
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8805 1580 8310 1580
-Wire Wire Line
-	8310 1580 8310 1455
-Wire Wire Line
-	8310 1255 8310 1000
 $Comp
 L power:+5V #PWR01
 U 1 1 6672CC53
@@ -2936,8 +2919,8 @@ $EndComp
 Connection ~ 7245 3235
 Wire Wire Line
 	7245 3235 7245 3175
-Text Notes 8205 1225 2    50   ~ 0
-Note that the C16 does not\nhave power on the keyboard\nconnector! A bodge wire mod\nwill be needed!\nFor LittleSixteen, we'll add a\njumper in the next release.
+Text Notes 8240 1550 2    50   ~ 0
+Note that the C16 does not\nhave power on the keyboard\nconnector! A bodge wire mod\nwill be needed!\nLittleSixteen has a dedicated\njumper since V4.
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 68545552
@@ -3242,6 +3225,10 @@ F 3 "~" H 3775 1535 50  0001 C CNN
 	1    3775 1535
 	1    0    0    -1  
 $EndComp
+Text Label 8410 1680 0    50   ~ 0
+row7
+Wire Wire Line
+	8310 1000 8310 1580
 Wire Bus Line
 	1715 5975 1715 6805
 Wire Bus Line

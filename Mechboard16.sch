@@ -3231,10 +3231,6 @@ F 4 "C2128" H 3225 1735 50  0001 C CNN "LCSC"
 $EndComp
 Text Notes 5545 1635 0    50   ~ 0
 The function key switches\nwere turned upside down\nfor routing reasons
-Wire Bus Line
-	1715 5975 1715 6805
-Wire Bus Line
-	2190 5975 2190 6805
 $Comp
 L Switch:SW_Push_45deg SW0:4
 U 1 1 6581A489
@@ -3246,4 +3242,8 @@ F 3 "~" H 3775 1535 50  0001 C CNN
 	1    3775 1535
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1715 5975 1715 6805
+Wire Bus Line
+	2190 5975 2190 6805
 $EndSCHEMATC

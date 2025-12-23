@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/Mechboard16/Mechboard16.sch)
-    (date "Tue 23 Dec 2025 01:21:55 CET")
+    (date "Tue 23 Dec 2025 12:14:26 CET")
     (tool "Eeschema 5.1.12")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,6 +30,8 @@
       (value KEY_DEL)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6575B9ED))
@@ -37,6 +39,8 @@
       (value KEY_3)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657674C2))
@@ -53,6 +57,8 @@
       (value KEY_5)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65773AEE))
@@ -69,6 +75,8 @@
       (value KEY_7)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6577596F))
@@ -85,6 +93,8 @@
       (value KEY_9)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6577708B))
@@ -110,6 +120,8 @@
       (value KEY_LF)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6577A210))
@@ -126,6 +138,8 @@
       (value KEY_1)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6577BAFD))
@@ -142,6 +156,8 @@
       (value KEY_DN)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65778877))
@@ -149,6 +165,8 @@
       (value KEY_RET)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_2.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B5925))
@@ -165,6 +183,8 @@
       (value KEY_W)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B5937))
@@ -181,6 +201,8 @@
       (value KEY_R)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B594E))
@@ -197,6 +219,8 @@
       (value KEY_Y)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B595D))
@@ -213,6 +237,8 @@
       (value KEY_I)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B596C))
@@ -238,6 +264,8 @@
       (value KEY_AST)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B5984))
@@ -254,6 +282,8 @@
       (value KEY_CLR)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetR)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B5993))
@@ -270,6 +300,8 @@
       (value KEY_P)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657B59A2))
@@ -277,6 +309,8 @@
       (value KEY_PND)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F6879))
@@ -293,6 +327,8 @@
       (value KEY_A)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F688B))
@@ -309,6 +345,8 @@
       (value KEY_D)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68A2))
@@ -325,6 +363,8 @@
       (value KEY_G)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68B1))
@@ -341,6 +381,8 @@
       (value KEY_J)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68C0))
@@ -366,6 +408,8 @@
       (value KEY_SEM)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68D8))
@@ -382,6 +426,8 @@
       (value KEY_CTL)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68E7))
@@ -398,6 +444,8 @@
       (value KEY_L)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 657F68F6))
@@ -405,6 +453,8 @@
       (value KEY_4)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6580579C))
@@ -421,6 +471,8 @@
       (value KEY_6)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 658057B3))
@@ -437,6 +489,8 @@
       (value KEY_8)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 658057C2))
@@ -453,6 +507,8 @@
       (value KEY_0)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 658057D1))
@@ -478,6 +534,8 @@
       (value KEY_RT)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 658057E9))
@@ -494,6 +552,8 @@
       (value KEY_2)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 658057F8))
@@ -510,6 +570,8 @@
       (value KEY_UP)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65805807))
@@ -526,6 +588,8 @@
       (value KEY_Z)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A49B))
@@ -542,6 +606,8 @@
       (value KEY_C)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A4B2))
@@ -558,6 +624,8 @@
       (value KEY_B)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A4C1))
@@ -574,6 +642,8 @@
       (value KEY_M)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A4D0))
@@ -599,6 +669,8 @@
       (value KEY_ESC)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A4E8))
@@ -615,6 +687,8 @@
       (value KEY_SPC)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_9.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A4F7))
@@ -631,6 +705,8 @@
       (value KEY_DOT)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A506))
@@ -638,6 +714,8 @@
       (value KEY_F2)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F0C))
@@ -654,6 +732,8 @@
       (value KEY_S)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F1E))
@@ -670,6 +750,8 @@
       (value KEY_F)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F35))
@@ -686,6 +768,8 @@
       (value KEY_H)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F44))
@@ -702,6 +786,8 @@
       (value KEY_K)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F53))
@@ -727,6 +813,8 @@
       (value KEY_EQ)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F6B))
@@ -743,6 +831,8 @@
       (value KEY_CMD)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F7A))
@@ -759,6 +849,8 @@
       (value KEY_COL)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 65838F89))
@@ -766,6 +858,8 @@
       (value KEY_F3)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B7F1))
@@ -782,6 +876,8 @@
       (value KEY_E)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B803))
@@ -798,6 +894,8 @@
       (value KEY_T)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B81A))
@@ -814,6 +912,8 @@
       (value KEY_U)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B829))
@@ -830,6 +930,8 @@
       (value KEY_O)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B838))
@@ -855,6 +957,8 @@
       (value KEY_PLS)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B850))
@@ -871,6 +975,8 @@
       (value KEY_Q)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B85F))
@@ -887,6 +993,8 @@
       (value KEY_MIN)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6586B86E))
@@ -894,6 +1002,8 @@
       (value KEY_AT)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AE9E))
@@ -910,6 +1020,8 @@
       (value KEY_LSH)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AEB0))
@@ -926,6 +1038,8 @@
       (value KEY_X)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AEC7))
@@ -942,6 +1056,8 @@
       (value KEY_V)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AED6))
@@ -958,6 +1074,8 @@
       (value KEY_N)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AEE5))
@@ -983,6 +1101,8 @@
       (value KEY_SLA)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AEFD))
@@ -999,6 +1119,8 @@
       (value KEY_RUN)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AF0C))
@@ -1015,6 +1137,8 @@
       (value KEY_COM)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6589AF1B))
@@ -1036,6 +1160,8 @@
       (value KEY_RSH)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 66835462))
@@ -1043,6 +1169,8 @@
       (value KEY_CLK)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.00u)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 668361B7))
@@ -1113,6 +1241,8 @@
       (value LED_CLK)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6726E132))
@@ -1138,6 +1268,8 @@
       (value 1u)
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1848))
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 673BDD7C))
@@ -1199,6 +1331,8 @@
       (value JMP_SHIFTLOCK_A)
       (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm)
       (datasheet ~)
+      (fields
+        (field (name LCSC) -))
       (libsource (lib Jumper) (part SolderJumper_3_Open) (description "Solder Jumper, 3-pole, open"))
       (sheetpath (names /) (tstamps /))
       (tstamp 68A0CA63))
@@ -1206,6 +1340,8 @@
       (value JMP_SHIFTLOCK_B)
       (footprint Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm)
       (datasheet ~)
+      (fields
+        (field (name LCSC) -))
       (libsource (lib Jumper) (part SolderJumper_3_Open) (description "Solder Jumper, 3-pole, open"))
       (sheetpath (names /) (tstamps /))
       (tstamp 68958908))
@@ -1234,6 +1370,8 @@
       (value KEY_HLP)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6580578A))
@@ -1250,6 +1388,8 @@
       (value KEY_F1)
       (footprint Mechboard16:SW_Hotswap_Kailh_MX_1.50u_OffsetL)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C41430893))
       (libsource (lib Switch) (part SW_Push_45deg) (description "Push button switch, normally open, two pins, 45° tilted"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6581A489))
@@ -1302,6 +1442,8 @@
       (value CONN_ICSP)
       (footprint Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name LCSC) -))
       (libsource (lib Connector_Generic) (part Conn_02x03_Odd_Even) (description "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 5E9A74C2))
@@ -1401,11 +1543,11 @@
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 613F6F1B))
     (comp (ref D201)
-      (value 1n5819)
+      (value 1n4148)
       (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet ~)
       (fields
-        (field (name LCSC) C191023))
+        (field (name LCSC) C2128))
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65C6C45B))
@@ -1429,6 +1571,8 @@
       (value LED_RET)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65D907E5))
@@ -1436,6 +1580,8 @@
       (value LED_PND)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E09AB5))
@@ -1443,6 +1589,8 @@
       (value LED_F1)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0ACD3))
@@ -1450,6 +1598,8 @@
       (value LED_F2)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0BB14))
@@ -1457,6 +1607,8 @@
       (value LED_F3)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0C717))
@@ -1464,6 +1616,8 @@
       (value LED_AT)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0CF0C))
@@ -1471,6 +1625,8 @@
       (value LED_DEL)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0D5E1))
@@ -1478,6 +1634,8 @@
       (value LED_W)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D596))
@@ -1485,6 +1643,8 @@
       (value LED_A)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5AD))
@@ -1492,6 +1652,8 @@
       (value LED_4)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5B4))
@@ -1499,6 +1661,8 @@
       (value LED_Z)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5BB))
@@ -1506,6 +1670,8 @@
       (value LED_E)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5C9))
@@ -1513,6 +1679,8 @@
       (value LED_LSH)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5D0))
@@ -1520,6 +1688,8 @@
       (value LED_3)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5D7))
@@ -1527,6 +1697,8 @@
       (value LED_R)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735B3))
@@ -1534,6 +1706,8 @@
       (value LED_D)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735CA))
@@ -1541,6 +1715,8 @@
       (value LED_6)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735D1))
@@ -1548,6 +1724,8 @@
       (value LED_C)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735D8))
@@ -1555,6 +1733,8 @@
       (value LED_F)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735DF))
@@ -1562,6 +1742,8 @@
       (value LED_T)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735E6))
@@ -1569,6 +1751,8 @@
       (value LED_X)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735ED))
@@ -1576,6 +1760,8 @@
       (value LED_5)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E735F4))
@@ -1583,6 +1769,8 @@
       (value LED_Y)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF5E))
@@ -1590,6 +1778,8 @@
       (value LED_G)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF75))
@@ -1597,6 +1787,8 @@
       (value LED_8)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF7C))
@@ -1604,6 +1796,8 @@
       (value LED_B)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF83))
@@ -1611,6 +1805,8 @@
       (value LED_H)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF8A))
@@ -1618,6 +1814,8 @@
       (value LED_U)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF91))
@@ -1625,6 +1823,8 @@
       (value LED_7)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF9F))
@@ -1632,6 +1832,8 @@
       (value LED_I)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D36))
@@ -1639,6 +1841,8 @@
       (value LED_J)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D4D))
@@ -1646,6 +1850,8 @@
       (value LED_0)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D54))
@@ -1653,6 +1859,8 @@
       (value LED_M)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D5B))
@@ -1660,6 +1868,8 @@
       (value LED_K)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D62))
@@ -1667,6 +1877,8 @@
       (value LED_O)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D69))
@@ -1674,6 +1886,8 @@
       (value LED_9)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D77))
@@ -1681,6 +1895,8 @@
       (value LED_P)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA19))
@@ -1688,6 +1904,8 @@
       (value LED_L)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA30))
@@ -1695,6 +1913,8 @@
       (value LED_UP)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA37))
@@ -1702,6 +1922,8 @@
       (value LED_DOT)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA3E))
@@ -1709,6 +1931,8 @@
       (value LED_COL)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA45))
@@ -1716,6 +1940,8 @@
       (value LED_MIN)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA4C))
@@ -1723,6 +1949,8 @@
       (value LED_COM)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA53))
@@ -1730,6 +1958,8 @@
       (value LED_DN)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65ECBA5A))
@@ -1737,6 +1967,8 @@
       (value LED_AST)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FA7))
@@ -1744,6 +1976,8 @@
       (value LED_SEM)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FBE))
@@ -1751,6 +1985,8 @@
       (value LED_RT)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FC5))
@@ -1758,6 +1994,8 @@
       (value LED_ESC)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FCC))
@@ -1765,6 +2003,8 @@
       (value LED_EQ)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FD3))
@@ -1772,6 +2012,8 @@
       (value LED_PLS)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FDA))
@@ -1779,6 +2021,8 @@
       (value LED_SLA)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FE1))
@@ -1786,6 +2030,8 @@
       (value LED_LF)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EF2FE8))
@@ -1793,6 +2039,8 @@
       (value LED_CLR)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F232EA))
@@ -1800,6 +2048,8 @@
       (value LED_CTL)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F23301))
@@ -1807,6 +2057,8 @@
       (value LED_2)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F23308))
@@ -1814,6 +2066,8 @@
       (value LED_CMD)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F23316))
@@ -1821,6 +2075,8 @@
       (value LED_Q)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F2331D))
@@ -1828,6 +2084,8 @@
       (value LED_RUN)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F23324))
@@ -1835,6 +2093,8 @@
       (value LED_1)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65F2332B))
@@ -1851,6 +2111,8 @@
       (value LED_HLP)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E0A3A6))
@@ -1858,6 +2120,8 @@
       (value LED_V)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E8CF98))
@@ -1865,6 +2129,8 @@
       (value LED_N)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65EA8D70))
@@ -1872,6 +2138,8 @@
       (value LED_S)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65E5D5C2))
@@ -1929,6 +2197,8 @@
       (value LED_RSH)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 65CB8B96))
@@ -1954,6 +2224,8 @@
       (value LED_SPC1)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 66460A2E))
@@ -1979,6 +2251,8 @@
       (value LED_SPC2)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 66529784))
@@ -1986,6 +2260,8 @@
       (value LED_SPC3)
       (footprint Mechboard16:LED_MX_6028R)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C3646964))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 6652A267))
@@ -2020,6 +2296,8 @@
       (value 1u)
       (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1848))
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 66DA4E1C))
@@ -2041,6 +2319,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17414))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4E6C))
@@ -2048,6 +2328,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17414))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4E76))
@@ -2055,6 +2337,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17414))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4E7C))
@@ -2062,6 +2346,8 @@
       (value 10k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17414))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4E82))
@@ -2069,6 +2355,8 @@
       (value 470n)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C13967))
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4EAC))
@@ -2076,6 +2364,8 @@
       (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet https://www.onsemi.com/pub/Collateral/BSS138-D.PDF)
+      (fields
+        (field (name LCSC) C75547))
       (libsource (lib Transistor_FET) (part BSS138) (description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4EC5))
@@ -2083,6 +2373,8 @@
       (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet https://www.onsemi.com/pub/Collateral/BSS138-D.PDF)
+      (fields
+        (field (name LCSC) C75547))
       (libsource (lib Transistor_FET) (part BSS138) (description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4ECB))
@@ -2101,6 +2393,8 @@
       (value 470n)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C13967))
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4EF0))
@@ -2108,6 +2402,8 @@
       (value 25M)
       (footprint Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C596913))
       (libsource (lib Device) (part Crystal_GND24) (description "Four pin crystal, GND on pins 2 and 4"))
       (sheetpath (names "/USB Controller/") (tstamps /656CF65E/))
       (tstamp 695D4F13))

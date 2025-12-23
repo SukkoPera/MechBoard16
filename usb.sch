@@ -757,7 +757,7 @@ AR Path="/65C6C45B" Ref="D7:?"  Part="1"
 AR Path="/656CF65E/65C6C45B" Ref="D201"  Part="1" 
 F 0 "D201" H 6880 3660 50  0000 C CNN
 F 1 "1n5819" H 6880 3691 50  0001 C CNN
-F 2 "Diode_SMD:D_SMA" H 6880 3565 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6880 3565 50  0001 C CNN
 F 3 "~" H 6880 3565 50  0001 C CNN
 F 4 "C191023" H 6880 3565 50  0001 C CNN "LCSC"
 	1    6880 3565
@@ -2884,8 +2884,9 @@ U 1 1 66DA4E1C
 P 1785 3770
 F 0 "C204" H 1900 3816 50  0000 L CNN
 F 1 "1u" H 1900 3725 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1785 3770 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1785 3770 50  0001 C CNN
 F 3 "~" H 1785 3770 50  0001 C CNN
+F 4 "C1848" H 1785 3770 50  0001 C CNN "LCSC"
 	1    1785 3770
 	1    0    0    -1  
 $EndComp
@@ -3464,10 +3465,6 @@ Wire Wire Line
 Connection ~ 1955 8525
 Text Label 1395 8525 0    50   ~ 0
 soft_i2c_scl
-Wire Bus Line
-	3930 3275 3930 3975
-Wire Bus Line
-	3930 2075 3930 2775
 Text Label 4245 9850 0    50   ~ 0
 clk0
 Wire Wire Line
@@ -3480,4 +3477,8 @@ Text Label 4245 10250 0    50   ~ 0
 clk2
 Wire Wire Line
 	4845 9850 4245 9850
+Wire Bus Line
+	3930 2075 3930 2775
+Wire Bus Line
+	3930 3275 3930 3975
 $EndSCHEMATC

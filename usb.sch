@@ -2917,16 +2917,16 @@ Wire Wire Line
 Wire Wire Line
 	2795 10240 2795 10345
 Wire Wire Line
-	6445 8430 6845 8430
-Text Label 6845 8430 2    50   ~ 0
+	6445 8430 6585 8430
+Text Label 7165 8430 2    50   ~ 0
 clk2
 Wire Wire Line
-	6445 8230 6845 8230
-Text Label 6845 8230 2    50   ~ 0
+	6445 8230 6585 8230
+Text Label 7165 8230 2    50   ~ 0
 clk1
 Wire Wire Line
-	6445 8030 6845 8030
-Text Label 6845 8030 2    50   ~ 0
+	6445 8030 6585 8030
+Text Label 7165 8030 2    50   ~ 0
 clk0
 Wire Wire Line
 	2585 9840 2795 9840
@@ -3653,8 +3653,58 @@ Text GLabel 10415 8545 0    50   Input ~ 0
 ROM_SWITCH
 Text Notes 9570 8225 0    50   ~ 0
 ROM SWITCHER
+$Comp
+L Device:R R?
+U 1 1 6B453E72
+P 6735 8030
+AR Path="/656CF65E/695AAD16/6B453E72" Ref="R?"  Part="1" 
+AR Path="/656CF65E/6B453E72" Ref="R10"  Part="1" 
+F 0 "R10" V 6845 8210 50  0000 C CNN
+F 1 "0" V 6775 8165 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6665 8030 50  0001 C CNN
+F 3 "~" H 6735 8030 50  0001 C CNN
+F 4 "C17477" H 6735 8030 50  0001 C CNN "LCSC"
+	1    6735 8030
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6B455C6D
+P 6735 8230
+AR Path="/656CF65E/695AAD16/6B455C6D" Ref="R?"  Part="1" 
+AR Path="/656CF65E/6B455C6D" Ref="R11"  Part="1" 
+F 0 "R11" V 6850 8415 50  0000 C CNN
+F 1 "47" V 6775 8390 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6665 8230 50  0001 C CNN
+F 3 "~" H 6735 8230 50  0001 C CNN
+F 4 "C17714" H 6735 8230 50  0001 C CNN "LCSC"
+	1    6735 8230
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6B4562F2
+P 6735 8430
+AR Path="/656CF65E/695AAD16/6B4562F2" Ref="R?"  Part="1" 
+AR Path="/656CF65E/6B4562F2" Ref="R12"  Part="1" 
+F 0 "R12" V 6845 8610 50  0000 C CNN
+F 1 "100" V 6775 8610 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6665 8430 50  0001 C CNN
+F 3 "~" H 6735 8430 50  0001 C CNN
+F 4 "C17408" H 6735 8430 50  0001 C CNN "LCSC"
+	1    6735 8430
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6885 8030 7165 8030
+Wire Wire Line
+	6885 8230 7165 8230
+Wire Wire Line
+	6885 8430 7165 8430
 Wire Bus Line
 	3930 2075 3930 2775
 Wire Bus Line
 	3930 3275 3930 3975
+Text Notes 6610 7860 0    50   ~ 0
+These resistors are supposed to help reduce EMI.\nAll to be replaced with the same value once the\noptimal one has been found.
 $EndSCHEMATC
